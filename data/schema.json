@@ -1,0 +1,184 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/kako-jun/traditional-colors/blob/main/data/schema.json",
+  "title": "Traditional Colors Schema",
+  "description": "Schema for traditional color data from various cultures",
+  "type": "object",
+  "properties": {
+    "colors": {
+      "type": "object",
+      "properties": {
+        "japanese": {
+          "$ref": "#/definitions/colorCollection"
+        },
+        "chinese": {
+          "$ref": "#/definitions/colorCollection"
+        },
+        "european": {
+          "$ref": "#/definitions/colorCollection"
+        }
+      },
+      "additionalProperties": {
+        "$ref": "#/definitions/colorCollection"
+      }
+    },
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "version": {
+          "type": "string",
+          "pattern": "^\\d+\\.\\d+\\.\\d+$"
+        },
+        "lastUpdated": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "totalColors": {
+          "type": "integer",
+          "minimum": 0
+        }
+      },
+      "required": ["version", "lastUpdated", "totalColors"]
+    }
+  },
+  "required": ["colors", "metadata"],
+  "definitions": {
+    "colorCollection": {
+      "type": "object",
+      "patternProperties": {
+        "^[a-z0-9_-]+$": {
+          "$ref": "#/definitions/color"
+        }
+      },
+      "additionalProperties": false
+    },
+    "color": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "object",
+          "properties": {
+            "ja": {
+              "type": "string",
+              "description": "Japanese name"
+            },
+            "en": {
+              "type": "string",
+              "description": "English name"
+            },
+            "reading": {
+              "type": "string",
+              "description": "Romanized reading (hiragana)"
+            },
+            "zh": {
+              "type": "string",
+              "description": "Chinese name"
+            },
+            "pinyin": {
+              "type": "string",
+              "description": "Pinyin romanization"
+            }
+          },
+          "required": ["en"]
+        },
+        "description": {
+          "type": "object",
+          "properties": {
+            "ja": {
+              "type": "string"
+            },
+            "en": {
+              "type": "string"
+            },
+            "zh": {
+              "type": "string"
+            }
+          },
+          "required": ["en"]
+        },
+        "hex": {
+          "type": "string",
+          "pattern": "^#[0-9A-Fa-f]{6}$",
+          "description": "Hexadecimal color code"
+        },
+        "rgb": {
+          "type": "array",
+          "items": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 255
+          },
+          "minItems": 3,
+          "maxItems": 3,
+          "description": "RGB color values [r, g, b]"
+        },
+        "hsl": {
+          "type": "array",
+          "items": [
+            {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 360,
+              "description": "Hue (0-360)"
+            },
+            {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 100,
+              "description": "Saturation (0-100%)"
+            },
+            {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 100,
+              "description": "Lightness (0-100%)"
+            }
+          ],
+          "minItems": 3,
+          "maxItems": 3,
+          "description": "HSL color values [h, s, l]"
+        },
+        "cmyk": {
+          "type": "array",
+          "items": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 100
+          },
+          "minItems": 4,
+          "maxItems": 4,
+          "description": "CMYK color values [c, m, y, k]"
+        },
+        "category": {
+          "type": "string",
+          "enum": [
+            "red",
+            "pink",
+            "orange",
+            "yellow",
+            "green",
+            "blue",
+            "purple",
+            "brown",
+            "gray",
+            "white",
+            "black"
+          ],
+          "description": "Color category"
+        },
+        "tags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Descriptive tags (nature, flower, season, etc.)"
+        },
+        "origin": {
+          "type": "string",
+          "description": "Origin or source of the color name"
+        }
+      },
+      "required": ["name", "description", "hex", "rgb", "category"]
+    }
+  }
+}
