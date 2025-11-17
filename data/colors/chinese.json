@@ -1,0 +1,857 @@
+{
+  "colors": {
+    "chinese": {
+      "zhusa": {
+        "name": {
+          "zh": "朱砂",
+          "en": "Zhusa",
+          "pinyin": "zhū shā"
+        },
+        "description": {
+          "zh": "朱砂矿石的红色",
+          "en": "Red like cinnabar mineral"
+        },
+        "hex": "#EE3F4D",
+        "rgb": [238, 63, 77],
+        "hsl": [355, 84, 59],
+        "cmyk": [0, 74, 68, 7],
+        "category": "red",
+        "tags": ["mineral", "vivid", "warm"],
+        "origin": "Named after cinnabar (zhusa) mineral"
+      },
+      "feihong": {
+        "name": {
+          "zh": "绯红",
+          "en": "Feihong",
+          "pinyin": "fēi hóng"
+        },
+        "description": {
+          "zh": "深红色",
+          "en": "Deep crimson"
+        },
+        "hex": "#C83C23",
+        "rgb": [200, 60, 35],
+        "hsl": [9, 70, 46],
+        "cmyk": [0, 70, 83, 22],
+        "category": "red",
+        "tags": ["deep", "warm"],
+        "origin": "Deep crimson color"
+      },
+      "yanzhi": {
+        "name": {
+          "zh": "胭脂",
+          "en": "Yanzhi",
+          "pinyin": "yān zhī"
+        },
+        "description": {
+          "zh": "红花染料的颜色",
+          "en": "Color of safflower rouge"
+        },
+        "hex": "#9D2933",
+        "rgb": [157, 41, 51],
+        "hsl": [355, 59, 39],
+        "cmyk": [0, 74, 68, 38],
+        "category": "red",
+        "tags": ["dye", "cosmetics", "warm"],
+        "origin": "Named after rouge (yanzhi) from safflower"
+      },
+      "tuohong": {
+        "name": {
+          "zh": "妃色",
+          "en": "Tuohong",
+          "pinyin": "tuó hóng"
+        },
+        "description": {
+          "zh": "淡淡的红色",
+          "en": "Pale reddish pink"
+        },
+        "hex": "#EF5A67",
+        "rgb": [239, 90, 103],
+        "hsl": [355, 82, 65],
+        "cmyk": [0, 62, 57, 6],
+        "category": "pink",
+        "tags": ["light", "soft", "warm"],
+        "origin": "Delicate pink color"
+      },
+      "yanzi": {
+        "name": {
+          "zh": "胭脂红",
+          "en": "Yanzihong",
+          "pinyin": "yān zhī hóng"
+        },
+        "description": {
+          "zh": "胭脂的红色",
+          "en": "Rouge red"
+        },
+        "hex": "#C45A65",
+        "rgb": [196, 90, 101],
+        "hsl": [354, 47, 56],
+        "cmyk": [0, 54, 48, 23],
+        "category": "red",
+        "tags": ["cosmetics", "warm"],
+        "origin": "Rouge red color"
+      },
+      "dianqing": {
+        "name": {
+          "zh": "靛青",
+          "en": "Dianqing",
+          "pinyin": "diàn qīng"
+        },
+        "description": {
+          "zh": "靛蓝染料的深蓝色",
+          "en": "Deep blue from indigo dye"
+        },
+        "hex": "#177CB0",
+        "rgb": [23, 124, 176],
+        "hsl": [200, 77, 39],
+        "cmyk": [87, 30, 0, 31],
+        "category": "blue",
+        "tags": ["dye", "deep", "cool"],
+        "origin": "Named after indigo (dianqing) dye"
+      },
+      "hulan": {
+        "name": {
+          "zh": "湖蓝",
+          "en": "Hulan",
+          "pinyin": "hú lán"
+        },
+        "description": {
+          "zh": "湖水般的蓝色",
+          "en": "Blue like lake water"
+        },
+        "hex": "#30DFF3",
+        "rgb": [48, 223, 243],
+        "hsl": [186, 89, 57],
+        "cmyk": [80, 8, 0, 5],
+        "category": "blue",
+        "tags": ["water", "bright", "cool"],
+        "origin": "Named after lake (hu) blue"
+      },
+      "tianqing": {
+        "name": {
+          "zh": "天青",
+          "en": "Tianqing",
+          "pinyin": "tiān qīng"
+        },
+        "description": {
+          "zh": "天空的青色",
+          "en": "Blue like sky"
+        },
+        "hex": "#3EEDE7",
+        "rgb": [62, 237, 231],
+        "hsl": [178, 83, 59],
+        "cmyk": [74, 0, 3, 7],
+        "category": "blue",
+        "tags": ["sky", "bright", "cool"],
+        "origin": "Named after sky (tian) blue"
+      },
+      "yuebailan": {
+        "name": {
+          "zh": "月白蓝",
+          "en": "Yuebailan",
+          "pinyin": "yuè bái lán"
+        },
+        "description": {
+          "zh": "月光下的淡蓝色",
+          "en": "Pale blue like moonlight"
+        },
+        "hex": "#D0E7F5",
+        "rgb": [208, 231, 245],
+        "hsl": [203, 67, 89],
+        "cmyk": [15, 6, 0, 4],
+        "category": "blue",
+        "tags": ["light", "moonlight", "cool"],
+        "origin": "Moonlight (yue) white blue"
+      },
+      "shiqing": {
+        "name": {
+          "zh": "石青",
+          "en": "Shiqing",
+          "pinyin": "shí qīng"
+        },
+        "description": {
+          "zh": "矿石的青色",
+          "en": "Blue like azurite stone"
+        },
+        "hex": "#1772B4",
+        "rgb": [23, 114, 180],
+        "hsl": [205, 77, 40],
+        "cmyk": [87, 37, 0, 29],
+        "category": "blue",
+        "tags": ["mineral", "deep", "cool"],
+        "origin": "Named after azurite (shiqing) stone"
+      },
+      "zhuqing": {
+        "name": {
+          "zh": "竹青",
+          "en": "Zhuqing",
+          "pinyin": "zhú qīng"
+        },
+        "description": {
+          "zh": "竹子的青绿色",
+          "en": "Blue-green like bamboo"
+        },
+        "hex": "#789262",
+        "rgb": [120, 146, 98],
+        "hsl": [93, 20, 48],
+        "cmyk": [18, 0, 33, 43],
+        "category": "green",
+        "tags": ["bamboo", "nature", "cool"],
+        "origin": "Named after bamboo (zhu) green"
+      },
+      "doulv": {
+        "name": {
+          "zh": "豆绿",
+          "en": "Doulv",
+          "pinyin": "dòu lǜ"
+        },
+        "description": {
+          "zh": "豆子般的绿色",
+          "en": "Green like beans"
+        },
+        "hex": "#9ED900",
+        "rgb": [158, 217, 0],
+        "hsl": [76, 100, 43],
+        "cmyk": [27, 0, 100, 15],
+        "category": "green",
+        "tags": ["nature", "vivid", "fresh"],
+        "origin": "Named after bean (dou) green"
+      },
+      "songlv": {
+        "name": {
+          "zh": "松绿",
+          "en": "Songlv",
+          "pinyin": "sōng lǜ"
+        },
+        "description": {
+          "zh": "松树般的深绿色",
+          "en": "Deep green like pine tree"
+        },
+        "hex": "#057748",
+        "rgb": [5, 119, 72],
+        "hsl": [155, 92, 24],
+        "cmyk": [96, 0, 40, 53],
+        "category": "green",
+        "tags": ["nature", "deep", "evergreen"],
+        "origin": "Named after pine (song) green"
+      },
+      "liulv": {
+        "name": {
+          "zh": "柳绿",
+          "en": "Liulv",
+          "pinyin": "liǔ lǜ"
+        },
+        "description": {
+          "zh": "柳树般的嫩绿色",
+          "en": "Tender green like willow"
+        },
+        "hex": "#AFDD22",
+        "rgb": [175, 221, 34],
+        "hsl": [75, 73, 50],
+        "cmyk": [21, 0, 85, 13],
+        "category": "green",
+        "tags": ["nature", "spring", "fresh"],
+        "origin": "Named after willow (liu) green"
+      },
+      "songhua": {
+        "name": {
+          "zh": "松花",
+          "en": "Songhua",
+          "pinyin": "sōng huā"
+        },
+        "description": {
+          "zh": "松花的淡黄绿色",
+          "en": "Pale yellow-green like pine pollen"
+        },
+        "hex": "#BCE06E",
+        "rgb": [188, 224, 110],
+        "hsl": [79, 64, 65],
+        "cmyk": [16, 0, 51, 12],
+        "category": "green",
+        "tags": ["nature", "light", "spring"],
+        "origin": "Named after pine (song) pollen"
+      },
+      "xianghuang": {
+        "name": {
+          "zh": "缃黄",
+          "en": "Xianghuang",
+          "pinyin": "xiāng huáng"
+        },
+        "description": {
+          "zh": "浅黄色",
+          "en": "Pale yellow"
+        },
+        "hex": "#FAFF72",
+        "rgb": [250, 255, 114],
+        "hsl": [62, 100, 72],
+        "cmyk": [2, 0, 55, 0],
+        "category": "yellow",
+        "tags": ["light", "bright"],
+        "origin": "Pale yellow color"
+      },
+      "xinghuang": {
+        "name": {
+          "zh": "杏黄",
+          "en": "Xinghuang",
+          "pinyin": "xìng huáng"
+        },
+        "description": {
+          "zh": "杏子般的黄色",
+          "en": "Yellow like apricot"
+        },
+        "hex": "#FFA631",
+        "rgb": [255, 166, 49],
+        "hsl": [34, 100, 60],
+        "cmyk": [0, 35, 81, 0],
+        "category": "orange",
+        "tags": ["fruit", "warm", "vivid"],
+        "origin": "Named after apricot (xing) yellow"
+      },
+      "ehuang": {
+        "name": {
+          "zh": "鹅黄",
+          "en": "Ehuang",
+          "pinyin": "é huáng"
+        },
+        "description": {
+          "zh": "小鸭绒毛般的嫩黄色",
+          "en": "Tender yellow like gosling down"
+        },
+        "hex": "#FFF143",
+        "rgb": [255, 241, 67],
+        "hsl": [56, 100, 63],
+        "cmyk": [0, 5, 74, 0],
+        "category": "yellow",
+        "tags": ["light", "soft", "warm"],
+        "origin": "Named after gosling (e) yellow"
+      },
+      "jianghuang": {
+        "name": {
+          "zh": "姜黄",
+          "en": "Jianghuang",
+          "pinyin": "jiāng huáng"
+        },
+        "description": {
+          "zh": "姜黄色",
+          "en": "Yellow like turmeric"
+        },
+        "hex": "#FFC773",
+        "rgb": [255, 199, 115],
+        "hsl": [36, 100, 73],
+        "cmyk": [0, 22, 55, 0],
+        "category": "yellow",
+        "tags": ["spice", "warm"],
+        "origin": "Named after turmeric (jiang) yellow"
+      },
+      "chenghuang": {
+        "name": {
+          "zh": "橙黄",
+          "en": "Chenghuang",
+          "pinyin": "chéng huáng"
+        },
+        "description": {
+          "zh": "橙子般的黄色",
+          "en": "Yellow like orange"
+        },
+        "hex": "#FFA400",
+        "rgb": [255, 164, 0],
+        "hsl": [39, 100, 50],
+        "cmyk": [0, 36, 100, 0],
+        "category": "orange",
+        "tags": ["fruit", "vivid", "warm"],
+        "origin": "Named after orange (cheng) yellow"
+      },
+      "tuhuang": {
+        "name": {
+          "zh": "土黄",
+          "en": "Tuhuang",
+          "pinyin": "tǔ huáng"
+        },
+        "description": {
+          "zh": "土地般的黄褐色",
+          "en": "Yellowish brown like earth"
+        },
+        "hex": "#C89B40",
+        "rgb": [200, 155, 64],
+        "hsl": [40, 55, 52],
+        "cmyk": [0, 23, 68, 22],
+        "category": "brown",
+        "tags": ["earth", "warm"],
+        "origin": "Named after earth (tu) yellow"
+      },
+      "hongtong": {
+        "name": {
+          "zh": "红铜",
+          "en": "Hongtong",
+          "pinyin": "hóng tóng"
+        },
+        "description": {
+          "zh": "红铜色",
+          "en": "Reddish copper color"
+        },
+        "hex": "#C87533",
+        "rgb": [200, 117, 51],
+        "hsl": [27, 59, 49],
+        "cmyk": [0, 42, 75, 22],
+        "category": "orange",
+        "tags": ["metal", "warm"],
+        "origin": "Named after red copper (hongtong)"
+      },
+      "jiangzhe": {
+        "name": {
+          "zh": "绛紫",
+          "en": "Jiangzhe",
+          "pinyin": "jiàng zǐ"
+        },
+        "description": {
+          "zh": "深红紫色",
+          "en": "Deep reddish purple"
+        },
+        "hex": "#8C4356",
+        "rgb": [140, 67, 86],
+        "hsl": [344, 35, 41],
+        "cmyk": [0, 52, 39, 45],
+        "category": "purple",
+        "tags": ["deep", "warm"],
+        "origin": "Deep reddish purple"
+      },
+      "qiangwei": {
+        "name": {
+          "zh": "蔷薇",
+          "en": "Qiangwei",
+          "pinyin": "qiáng wēi"
+        },
+        "description": {
+          "zh": "蔷薇花般的粉红色",
+          "en": "Pink like wild rose"
+        },
+        "hex": "#ED5A65",
+        "rgb": [237, 90, 101],
+        "hsl": [355, 81, 64],
+        "cmyk": [0, 62, 57, 7],
+        "category": "pink",
+        "tags": ["flower", "warm"],
+        "origin": "Named after wild rose (qiangwei)"
+      },
+      "taohua": {
+        "name": {
+          "zh": "桃花",
+          "en": "Taohua",
+          "pinyin": "táo huā"
+        },
+        "description": {
+          "zh": "桃花般的粉红色",
+          "en": "Pink like peach blossom"
+        },
+        "hex": "#F47983",
+        "rgb": [244, 121, 131],
+        "hsl": [355, 85, 72],
+        "cmyk": [0, 50, 46, 4],
+        "category": "pink",
+        "tags": ["flower", "spring", "warm"],
+        "origin": "Named after peach (tao) blossom"
+      },
+      "qianshuilan": {
+        "name": {
+          "zh": "浅水蓝",
+          "en": "Qianshuilan",
+          "pinyin": "qiǎn shuǐ lán"
+        },
+        "description": {
+          "zh": "浅水般的淡蓝色",
+          "en": "Pale blue like shallow water"
+        },
+        "hex": "#88C6DE",
+        "rgb": [136, 198, 222],
+        "hsl": [197, 56, 70],
+        "cmyk": [39, 11, 0, 13],
+        "category": "blue",
+        "tags": ["water", "light", "cool"],
+        "origin": "Named after shallow water blue"
+      },
+      "qunqing": {
+        "name": {
+          "zh": "群青",
+          "en": "Qunqing",
+          "pinyin": "qún qīng"
+        },
+        "description": {
+          "zh": "深青色",
+          "en": "Deep blue"
+        },
+        "hex": "#4C8DAE",
+        "rgb": [76, 141, 174],
+        "hsl": [200, 39, 49],
+        "cmyk": [56, 19, 0, 32],
+        "category": "blue",
+        "tags": ["deep", "cool"],
+        "origin": "Deep blue color"
+      },
+      "danlv": {
+        "name": {
+          "zh": "淡绿",
+          "en": "Danlv",
+          "pinyin": "dàn lǜ"
+        },
+        "description": {
+          "zh": "淡淡的绿色",
+          "en": "Pale green"
+        },
+        "hex": "#9ED048",
+        "rgb": [158, 208, 72],
+        "hsl": [82, 59, 55],
+        "cmyk": [24, 0, 65, 18],
+        "category": "green",
+        "tags": ["light", "soft"],
+        "origin": "Pale green color"
+      },
+      "cuilu": {
+        "name": {
+          "zh": "翠绿",
+          "en": "Cuilu",
+          "pinyin": "cuì lǜ"
+        },
+        "description": {
+          "zh": "翠鸟般的翠绿色",
+          "en": "Bright green like kingfisher"
+        },
+        "hex": "#00A86D",
+        "rgb": [0, 168, 109],
+        "hsl": [159, 100, 33],
+        "cmyk": [100, 0, 35, 34],
+        "category": "green",
+        "tags": ["bird", "vivid", "cool"],
+        "origin": "Named after kingfisher (cui) green"
+      },
+      "meigui": {
+        "name": {
+          "zh": "玫瑰",
+          "en": "Meigui",
+          "pinyin": "méi guī"
+        },
+        "description": {
+          "zh": "玫瑰花般的红色",
+          "en": "Red like rose"
+        },
+        "hex": "#F00056",
+        "rgb": [240, 0, 86],
+        "hsl": [339, 100, 47],
+        "cmyk": [0, 100, 64, 6],
+        "category": "red",
+        "tags": ["flower", "vivid", "warm"],
+        "origin": "Named after rose (meigui)"
+      },
+      "luodian": {
+        "name": {
+          "zh": "螺甸",
+          "en": "Luodian",
+          "pinyin": "luó diàn"
+        },
+        "description": {
+          "zh": "螺钿的青绿色",
+          "en": "Blue-green like mother-of-pearl"
+        },
+        "hex": "#20A381",
+        "rgb": [32, 163, 129],
+        "hsl": [164, 67, 38],
+        "cmyk": [80, 0, 21, 36],
+        "category": "green",
+        "tags": ["shell", "cool"],
+        "origin": "Named after mother-of-pearl (luodian)"
+      },
+      "zhusha": {
+        "name": {
+          "zh": "朱砂红",
+          "en": "Zhushahong",
+          "pinyin": "zhū shā hóng"
+        },
+        "description": {
+          "zh": "朱砂般的深红色",
+          "en": "Deep red like vermilion"
+        },
+        "hex": "#C93756",
+        "rgb": [201, 55, 86],
+        "hsl": [347, 58, 50],
+        "cmyk": [0, 73, 57, 21],
+        "category": "red",
+        "tags": ["mineral", "deep", "warm"],
+        "origin": "Vermilion red"
+      },
+      "yuhong": {
+        "name": {
+          "zh": "鱼肚红",
+          "en": "Yuhong",
+          "pinyin": "yú dǔ hóng"
+        },
+        "description": {
+          "zh": "鱼肚般的淡红色",
+          "en": "Pale red like fish belly"
+        },
+        "hex": "#F9BDC8",
+        "rgb": [249, 189, 200],
+        "hsl": [349, 83, 86],
+        "cmyk": [0, 24, 20, 2],
+        "category": "pink",
+        "tags": ["light", "soft"],
+        "origin": "Named after fish belly color"
+      },
+      "shiliu": {
+        "name": {
+          "zh": "石榴红",
+          "en": "Shiliuhong",
+          "pinyin": "shí liú hóng"
+        },
+        "description": {
+          "zh": "石榴般的红色",
+          "en": "Red like pomegranate"
+        },
+        "hex": "#F20C00",
+        "rgb": [242, 12, 0],
+        "hsl": [3, 100, 47],
+        "cmyk": [0, 95, 100, 5],
+        "category": "red",
+        "tags": ["fruit", "vivid", "warm"],
+        "origin": "Named after pomegranate (shiliu)"
+      },
+      "yanzizong": {
+        "name": {
+          "zh": "雁灰",
+          "en": "Yanzizong",
+          "pinyin": "yàn zǐ zōng"
+        },
+        "description": {
+          "zh": "雁子般的灰棕色",
+          "en": "Gray-brown like wild goose"
+        },
+        "hex": "#8D7662",
+        "rgb": [141, 118, 98],
+        "hsl": [28, 18, 47],
+        "cmyk": [0, 16, 30, 45],
+        "category": "brown",
+        "tags": ["bird", "neutral"],
+        "origin": "Named after wild goose (yanzi)"
+      },
+      "xiangsi": {
+        "name": {
+          "zh": "相思",
+          "en": "Xiangsi",
+          "pinyin": "xiāng sī"
+        },
+        "description": {
+          "zh": "相思豆般的红色",
+          "en": "Red like coral bean"
+        },
+        "hex": "#9D2933",
+        "rgb": [157, 41, 51],
+        "hsl": [355, 59, 39],
+        "cmyk": [0, 74, 68, 38],
+        "category": "red",
+        "tags": ["nature", "warm"],
+        "origin": "Named after coral bean (xiangsi)"
+      },
+      "taihong": {
+        "name": {
+          "zh": "苔红",
+          "en": "Taihong",
+          "pinyin": "tái hóng"
+        },
+        "description": {
+          "zh": "苔藓般的暗红色",
+          "en": "Dark red like moss"
+        },
+        "hex": "#7C4C41",
+        "rgb": [124, 76, 65],
+        "hsl": [11, 31, 37],
+        "cmyk": [0, 39, 48, 51],
+        "category": "brown",
+        "tags": ["nature", "dark"],
+        "origin": "Moss-tinted red"
+      },
+      "dousha": {
+        "name": {
+          "zh": "豆沙",
+          "en": "Dousha",
+          "pinyin": "dòu shā"
+        },
+        "description": {
+          "zh": "豆沙般的淡紫红色",
+          "en": "Pale purplish red like red bean paste"
+        },
+        "hex": "#A76471",
+        "rgb": [167, 100, 113],
+        "hsl": [348, 27, 52],
+        "cmyk": [0, 40, 32, 35],
+        "category": "pink",
+        "tags": ["food", "soft"],
+        "origin": "Named after red bean paste (dousha)"
+      },
+      "zise": {
+        "name": {
+          "zh": "紫色",
+          "en": "Zise",
+          "pinyin": "zǐ sè"
+        },
+        "description": {
+          "zh": "标准紫色",
+          "en": "Standard purple"
+        },
+        "hex": "#815476",
+        "rgb": [129, 84, 118],
+        "hsl": [315, 21, 42],
+        "cmyk": [0, 35, 9, 49],
+        "category": "purple",
+        "tags": ["standard"],
+        "origin": "Standard Chinese word for purple"
+      },
+      "jianglv": {
+        "name": {
+          "zh": "姜绿",
+          "en": "Jianglv",
+          "pinyin": "jiāng lǜ"
+        },
+        "description": {
+          "zh": "姜芽般的嫩绿色",
+          "en": "Tender green like ginger sprout"
+        },
+        "hex": "#C3D941",
+        "rgb": [195, 217, 65],
+        "hsl": [69, 67, 55],
+        "cmyk": [10, 0, 70, 15],
+        "category": "green",
+        "tags": ["nature", "fresh"],
+        "origin": "Named after ginger (jiang) sprout"
+      },
+      "xuehui": {
+        "name": {
+          "zh": "雪灰",
+          "en": "Xuehui",
+          "pinyin": "xuě huī"
+        },
+        "description": {
+          "zh": "雪般的灰白色",
+          "en": "Gray-white like snow"
+        },
+        "hex": "#D9D9D9",
+        "rgb": [217, 217, 217],
+        "hsl": [0, 0, 85],
+        "cmyk": [0, 0, 0, 15],
+        "category": "gray",
+        "tags": ["light", "snow"],
+        "origin": "Snow (xue) gray"
+      },
+      "wujin": {
+        "name": {
+          "zh": "乌金",
+          "en": "Wujin",
+          "pinyin": "wū jīn"
+        },
+        "description": {
+          "zh": "乌黑发亮的黑色",
+          "en": "Glossy black like crow"
+        },
+        "hex": "#141414",
+        "rgb": [20, 20, 20],
+        "hsl": [0, 0, 8],
+        "cmyk": [0, 0, 0, 92],
+        "category": "black",
+        "tags": ["dark", "glossy"],
+        "origin": "Crow (wu) black gold"
+      },
+      "xianghui": {
+        "name": {
+          "zh": "象灰",
+          "en": "Xianghui",
+          "pinyin": "xiàng huī"
+        },
+        "description": {
+          "zh": "象牙般的灰白色",
+          "en": "Gray-white like ivory"
+        },
+        "hex": "#E8E5D8",
+        "rgb": [232, 229, 216],
+        "hsl": [49, 22, 88],
+        "cmyk": [0, 1, 7, 9],
+        "category": "white",
+        "tags": ["light", "soft"],
+        "origin": "Ivory (xiang) gray"
+      },
+      "danqing": {
+        "name": {
+          "zh": "丹青",
+          "en": "Danqing",
+          "pinyin": "dān qīng"
+        },
+        "description": {
+          "zh": "传统绘画的朱红和青色",
+          "en": "Traditional vermilion and blue of painting"
+        },
+        "hex": "#C8423B",
+        "rgb": [200, 66, 59],
+        "hsl": [3, 54, 51],
+        "cmyk": [0, 67, 71, 22],
+        "category": "red",
+        "tags": ["art", "traditional", "warm"],
+        "origin": "Traditional painting colors"
+      },
+      "fenhuang": {
+        "name": {
+          "zh": "粉黄",
+          "en": "Fenhuang",
+          "pinyin": "fěn huáng"
+        },
+        "description": {
+          "zh": "粉嫩的黄色",
+          "en": "Pale powdery yellow"
+        },
+        "hex": "#FCE38A",
+        "rgb": [252, 227, 138],
+        "hsl": [47, 95, 76],
+        "cmyk": [0, 10, 45, 1],
+        "category": "yellow",
+        "tags": ["light", "soft"],
+        "origin": "Powdery (fen) yellow"
+      },
+      "fenhong": {
+        "name": {
+          "zh": "粉红",
+          "en": "Fenhong",
+          "pinyin": "fěn hóng"
+        },
+        "description": {
+          "zh": "粉嫩的红色",
+          "en": "Pale powdery red"
+        },
+        "hex": "#F472D0",
+        "rgb": [244, 114, 208],
+        "hsl": [317, 85, 70],
+        "cmyk": [0, 53, 15, 4],
+        "category": "pink",
+        "tags": ["light", "soft"],
+        "origin": "Powdery (fen) red"
+      },
+      "hupo": {
+        "name": {
+          "zh": "琥珀",
+          "en": "Hupo",
+          "pinyin": "hǔ pò"
+        },
+        "description": {
+          "zh": "琥珀般的金黄色",
+          "en": "Golden like amber"
+        },
+        "hex": "#D99E6B",
+        "rgb": [217, 158, 107],
+        "hsl": [28, 59, 64],
+        "cmyk": [0, 27, 51, 15],
+        "category": "orange",
+        "tags": ["mineral", "warm", "golden"],
+        "origin": "Named after amber (hupo)"
+      }
+    }
+  },
+  "metadata": {
+    "version": "0.2.0",
+    "lastUpdated": "2025-11-17T00:00:00Z",
+    "totalColors": 50
+  }
+}

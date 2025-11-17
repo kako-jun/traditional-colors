@@ -1,0 +1,461 @@
+{
+  "colors": {
+    "european": {
+      "venetianred": {
+        "name": {
+          "en": "Venetian Red"
+        },
+        "description": {
+          "en": "Deep reddish brown pigment from Venice"
+        },
+        "hex": "#C80815",
+        "rgb": [200, 8, 21],
+        "hsl": [356, 92, 41],
+        "cmyk": [0, 96, 90, 22],
+        "category": "red",
+        "tags": ["pigment", "historic", "Venice"],
+        "origin": "Named after traditional Venetian red ochre pigment"
+      },
+      "pompeiianred": {
+        "name": {
+          "en": "Pompeian Red"
+        },
+        "description": {
+          "en": "Deep red from ancient Pompeii frescoes"
+        },
+        "hex": "#CC4E5C",
+        "rgb": [204, 78, 92],
+        "hsl": [353, 54, 55],
+        "cmyk": [0, 62, 55, 20],
+        "category": "red",
+        "tags": ["pigment", "ancient", "fresco"],
+        "origin": "Named after red pigment used in Pompeii frescoes"
+      },
+      "royalblue": {
+        "name": {
+          "en": "Royal Blue"
+        },
+        "description": {
+          "en": "Deep vivid blue associated with royalty"
+        },
+        "hex": "#4169E1",
+        "rgb": [65, 105, 225],
+        "hsl": [225, 73, 57],
+        "cmyk": [71, 53, 0, 12],
+        "category": "blue",
+        "tags": ["royalty", "vivid"],
+        "origin": "Traditional color associated with European royalty"
+      },
+      "prussianblue": {
+        "name": {
+          "en": "Prussian Blue"
+        },
+        "description": {
+          "en": "Deep blue pigment discovered in Prussia"
+        },
+        "hex": "#003153",
+        "rgb": [0, 49, 83],
+        "hsl": [205, 100, 16],
+        "cmyk": [100, 41, 0, 67],
+        "category": "blue",
+        "tags": ["pigment", "historic", "deep"],
+        "origin": "Discovered in Berlin, Prussia in 1704"
+      },
+      "bleudefrance": {
+        "name": {
+          "en": "Bleu de France"
+        },
+        "description": {
+          "en": "Traditional blue of France"
+        },
+        "hex": "#318CE7",
+        "rgb": [49, 140, 231],
+        "hsl": [210, 79, 55],
+        "cmyk": [79, 39, 0, 9],
+        "category": "blue",
+        "tags": ["France", "national"],
+        "origin": "Traditional national blue of France"
+      },
+      "britishracinggreen": {
+        "name": {
+          "en": "British Racing Green"
+        },
+        "description": {
+          "en": "Dark green of British racing cars"
+        },
+        "hex": "#004225",
+        "rgb": [0, 66, 37],
+        "hsl": [154, 100, 13],
+        "cmyk": [100, 0, 44, 74],
+        "category": "green",
+        "tags": ["Britain", "racing", "dark"],
+        "origin": "Traditional color of British racing automobiles"
+      },
+      "viridian": {
+        "name": {
+          "en": "Viridian"
+        },
+        "description": {
+          "en": "Blue-green pigment invented in France"
+        },
+        "hex": "#40826D",
+        "rgb": [64, 130, 109],
+        "hsl": [161, 34, 38],
+        "cmyk": [51, 0, 16, 49],
+        "category": "green",
+        "tags": ["pigment", "historic"],
+        "origin": "Synthetic pigment invented in France in 1838"
+      },
+      "burgundy": {
+        "name": {
+          "en": "Burgundy"
+        },
+        "description": {
+          "en": "Deep purplish red wine color"
+        },
+        "hex": "#800020",
+        "rgb": [128, 0, 32],
+        "hsl": [345, 100, 25],
+        "cmyk": [0, 100, 75, 50],
+        "category": "red",
+        "tags": ["wine", "France", "deep"],
+        "origin": "Named after wine from Burgundy region of France"
+      },
+      "cardinal": {
+        "name": {
+          "en": "Cardinal"
+        },
+        "description": {
+          "en": "Vivid red of Catholic cardinals' vestments"
+        },
+        "hex": "#C41E3A",
+        "rgb": [196, 30, 58],
+        "hsl": [350, 73, 44],
+        "cmyk": [0, 85, 70, 23],
+        "category": "red",
+        "tags": ["religious", "vivid"],
+        "origin": "Named after the red robes of Catholic cardinals"
+      },
+      "rougeardinal": {
+        "name": {
+          "en": "Rouge Cardinal"
+        },
+        "description": {
+          "en": "Cardinal red from France"
+        },
+        "hex": "#B51F2B",
+        "rgb": [181, 31, 43],
+        "hsl": [355, 71, 42],
+        "cmyk": [0, 83, 76, 29],
+        "category": "red",
+        "tags": ["France", "religious"],
+        "origin": "French cardinal red"
+      },
+      "chartreusegreen": {
+        "name": {
+          "en": "Chartreuse"
+        },
+        "description": {
+          "en": "Yellow-green color of Chartreuse liqueur"
+        },
+        "hex": "#7FFF00",
+        "rgb": [127, 255, 0],
+        "hsl": [90, 100, 50],
+        "cmyk": [50, 0, 100, 0],
+        "category": "green",
+        "tags": ["France", "liqueur", "vivid"],
+        "origin": "Named after French Chartreuse liqueur"
+      },
+      "oxfordblue": {
+        "name": {
+          "en": "Oxford Blue"
+        },
+        "description": {
+          "en": "Dark blue of Oxford University"
+        },
+        "hex": "#002147",
+        "rgb": [0, 33, 71],
+        "hsl": [212, 100, 14],
+        "cmyk": [100, 54, 0, 72],
+        "category": "blue",
+        "tags": ["Britain", "academic", "dark"],
+        "origin": "Traditional color of Oxford University"
+      },
+      "cambridgeblue": {
+        "name": {
+          "en": "Cambridge Blue"
+        },
+        "description": {
+          "en": "Pale blue of Cambridge University"
+        },
+        "hex": "#A3C1AD",
+        "rgb": [163, 193, 173],
+        "hsl": [140, 20, 70],
+        "cmyk": [16, 0, 10, 24],
+        "category": "blue",
+        "tags": ["Britain", "academic", "light"],
+        "origin": "Traditional color of Cambridge University"
+      },
+      "naplesyellow": {
+        "name": {
+          "en": "Naples Yellow"
+        },
+        "description": {
+          "en": "Pale yellow pigment from Naples"
+        },
+        "hex": "#FADA5E",
+        "rgb": [250, 218, 94],
+        "hsl": [48, 94, 67],
+        "cmyk": [0, 13, 62, 2],
+        "category": "yellow",
+        "tags": ["pigment", "Italy", "historic"],
+        "origin": "Historic pigment associated with Naples, Italy"
+      },
+      "titaniumwhite": {
+        "name": {
+          "en": "Titanium White"
+        },
+        "description": {
+          "en": "Bright white pigment invented in Europe"
+        },
+        "hex": "#F5F5F5",
+        "rgb": [245, 245, 245],
+        "hsl": [0, 0, 96],
+        "cmyk": [0, 0, 0, 4],
+        "category": "white",
+        "tags": ["pigment", "modern", "bright"],
+        "origin": "Modern white pigment developed in early 20th century"
+      },
+      "ivoryblack": {
+        "name": {
+          "en": "Ivory Black"
+        },
+        "description": {
+          "en": "Deep black from burnt ivory"
+        },
+        "hex": "#1C1C1C",
+        "rgb": [28, 28, 28],
+        "hsl": [0, 0, 11],
+        "cmyk": [0, 0, 0, 89],
+        "category": "black",
+        "tags": ["pigment", "historic", "dark"],
+        "origin": "Traditional black pigment made from burnt ivory"
+      },
+      "vandykebrown": {
+        "name": {
+          "en": "Van Dyck Brown"
+        },
+        "description": {
+          "en": "Deep brown used by painter Van Dyck"
+        },
+        "hex": "#664228",
+        "rgb": [102, 66, 40],
+        "hsl": [25, 44, 28],
+        "cmyk": [0, 35, 61, 60],
+        "category": "brown",
+        "tags": ["pigment", "artist", "dark"],
+        "origin": "Named after Flemish painter Anthony van Dyck"
+      },
+      "rawsienna": {
+        "name": {
+          "en": "Raw Sienna"
+        },
+        "description": {
+          "en": "Yellowish brown earth pigment from Siena"
+        },
+        "hex": "#D68A59",
+        "rgb": [214, 138, 89],
+        "hsl": [24, 61, 59],
+        "cmyk": [0, 36, 58, 16],
+        "category": "orange",
+        "tags": ["pigment", "earth", "Italy"],
+        "origin": "Earth pigment from Siena, Italy"
+      },
+      "burntsienna": {
+        "name": {
+          "en": "Burnt Sienna"
+        },
+        "description": {
+          "en": "Reddish brown from heated sienna"
+        },
+        "hex": "#E97451",
+        "rgb": [233, 116, 81],
+        "hsl": [14, 78, 62],
+        "cmyk": [0, 50, 65, 9],
+        "category": "orange",
+        "tags": ["pigment", "earth", "Italy"],
+        "origin": "Heated raw sienna pigment"
+      },
+      "rawumber": {
+        "name": {
+          "en": "Raw Umber"
+        },
+        "description": {
+          "en": "Dark brown earth pigment from Umbria"
+        },
+        "hex": "#826644",
+        "rgb": [130, 102, 68],
+        "hsl": [33, 31, 39],
+        "cmyk": [0, 22, 48, 49],
+        "category": "brown",
+        "tags": ["pigment", "earth", "Italy"],
+        "origin": "Earth pigment from Umbria, Italy"
+      },
+      "burntumber": {
+        "name": {
+          "en": "Burnt Umber"
+        },
+        "description": {
+          "en": "Reddish brown from heated umber"
+        },
+        "hex": "#8A3324",
+        "rgb": [138, 51, 36],
+        "hsl": [9, 59, 34],
+        "cmyk": [0, 63, 74, 46],
+        "category": "brown",
+        "tags": ["pigment", "earth", "Italy"],
+        "origin": "Heated raw umber pigment"
+      },
+      "ultramarine": {
+        "name": {
+          "en": "Ultramarine"
+        },
+        "description": {
+          "en": "Deep blue from lapis lazuli"
+        },
+        "hex": "#3F00FF",
+        "rgb": [63, 0, 255],
+        "hsl": [255, 100, 50],
+        "cmyk": [75, 100, 0, 0],
+        "category": "blue",
+        "tags": ["pigment", "precious", "vivid"],
+        "origin": "Precious blue pigment from Afghan lapis lazuli"
+      },
+      "mauve": {
+        "name": {
+          "en": "Mauve"
+        },
+        "description": {
+          "en": "Pale purple, first synthetic dye"
+        },
+        "hex": "#E0B0FF",
+        "rgb": [224, 176, 255],
+        "hsl": [276, 100, 85],
+        "cmyk": [12, 31, 0, 0],
+        "category": "purple",
+        "tags": ["dye", "historic", "Victorian"],
+        "origin": "First synthetic purple dye, discovered 1856"
+      },
+      "tyrianpurple": {
+        "name": {
+          "en": "Tyrian Purple"
+        },
+        "description": {
+          "en": "Ancient purple from Mediterranean sea snails"
+        },
+        "hex": "#66023C",
+        "rgb": [102, 2, 60],
+        "hsl": [325, 96, 20],
+        "cmyk": [0, 98, 41, 60],
+        "category": "purple",
+        "tags": ["ancient", "precious", "royalty"],
+        "origin": "Ancient dye from Murex sea snails, symbol of royalty"
+      },
+      "vermilion": {
+        "name": {
+          "en": "Vermilion"
+        },
+        "description": {
+          "en": "Brilliant red mercuric sulfide pigment"
+        },
+        "hex": "#E34234",
+        "rgb": [227, 66, 52],
+        "hsl": [5, 76, 55],
+        "cmyk": [0, 71, 77, 11],
+        "category": "red",
+        "tags": ["pigment", "vivid", "historic"],
+        "origin": "Historic brilliant red pigment"
+      },
+      "cerulean": {
+        "name": {
+          "en": "Cerulean"
+        },
+        "description": {
+          "en": "Sky blue pigment"
+        },
+        "hex": "#007BA7",
+        "rgb": [0, 123, 167],
+        "hsl": [196, 100, 33],
+        "cmyk": [100, 26, 0, 35],
+        "category": "blue",
+        "tags": ["pigment", "sky", "cool"],
+        "origin": "Sky blue pigment developed in 1805"
+      },
+      "cobaltblue": {
+        "name": {
+          "en": "Cobalt Blue"
+        },
+        "description": {
+          "en": "Deep blue from cobalt compounds"
+        },
+        "hex": "#0047AB",
+        "rgb": [0, 71, 171],
+        "hsl": [215, 100, 34],
+        "cmyk": [100, 58, 0, 33],
+        "category": "blue",
+        "tags": ["pigment", "vivid", "deep"],
+        "origin": "Cobalt aluminate blue pigment"
+      },
+      "emeraldgreen": {
+        "name": {
+          "en": "Emerald Green"
+        },
+        "description": {
+          "en": "Vivid green pigment"
+        },
+        "hex": "#50C878",
+        "rgb": [80, 200, 120],
+        "hsl": [140, 52, 55],
+        "cmyk": [60, 0, 40, 22],
+        "category": "green",
+        "tags": ["pigment", "vivid", "gemstone"],
+        "origin": "Vivid green copper arsenite pigment"
+      },
+      "terracotta": {
+        "name": {
+          "en": "Terracotta"
+        },
+        "description": {
+          "en": "Reddish brown of baked clay"
+        },
+        "hex": "#E2725B",
+        "rgb": [226, 114, 91],
+        "hsl": [10, 70, 62],
+        "cmyk": [0, 50, 60, 11],
+        "category": "orange",
+        "tags": ["clay", "earth", "Italy"],
+        "origin": "Named after terracotta pottery"
+      },
+      "ochre": {
+        "name": {
+          "en": "Ochre"
+        },
+        "description": {
+          "en": "Yellow-brown earth pigment"
+        },
+        "hex": "#CC7722",
+        "rgb": [204, 119, 34],
+        "hsl": [30, 71, 47],
+        "cmyk": [0, 42, 83, 20],
+        "category": "orange",
+        "tags": ["pigment", "earth", "ancient"],
+        "origin": "Ancient yellow-brown earth pigment"
+      }
+    }
+  },
+  "metadata": {
+    "version": "0.2.0",
+    "lastUpdated": "2025-11-17T00:00:00Z",
+    "totalColors": 30
+  }
+}
