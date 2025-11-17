@@ -10,53 +10,71 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
-const DATA_PATH = join(__dirname, '../data/colors/japanese.json');
+const DATA_DIR = join(__dirname, '../data/colors');
 const OUTPUT_DIR = join(__dirname, '../dist/tailwind');
 const OUTPUT_FILE = join(OUTPUT_DIR, 'colors.js');
 const OUTPUT_CJS = join(OUTPUT_DIR, 'colors.cjs');
 
 /**
- * Load color data from JSON file
+ * Load color data from all JSON files
  */
 function loadColorData() {
-  const data = readFileSync(DATA_PATH, 'utf-8');
-  return JSON.parse(data);
+  const japanese = JSON.parse(readFileSync(join(DATA_DIR, 'japanese.json'), 'utf-8'));
+  const chinese = JSON.parse(readFileSync(join(DATA_DIR, 'chinese.json'), 'utf-8'));
+  const european = JSON.parse(readFileSync(join(DATA_DIR, 'european.json'), 'utf-8'));
+
+  return { japanese, chinese, european };
 }
 
 /**
- * Generate Tailwind CSS color object
+ * Generate Tailwind CSS color object for a specific region
+ */
+function generateRegionColors(colors) {
+  const result = {};
+  for (const [key, color] of Object.entries(colors)) {
+    result[key] = color.hex;
+  }
+  return result;
+}
+
+/**
+ * Generate Tailwind CSS color objects for all regions
  */
 function generateTailwindColors(colorData) {
-  const colors = {};
-
-  for (const [key, color] of Object.entries(colorData.colors.japanese)) {
-    colors[key] = color.hex;
-  }
-
-  return colors;
+  return {
+    japanese: generateRegionColors(colorData.japanese.colors.japanese),
+    chinese: generateRegionColors(colorData.chinese.colors.chinese),
+    european: generateRegionColors(colorData.european.colors.european)
+  };
 }
 
 /**
- * Generate Tailwind CSS color object with detailed metadata
+ * Generate Tailwind CSS color object with detailed metadata for a region
  */
-function generateTailwindColorsWithMeta(colorData) {
-  const colors = {};
-
-  for (const [key, color] of Object.entries(colorData.colors.japanese)) {
-    colors[key] = {
+function generateRegionColorsWithMeta(colors, hasReading = false) {
+  const result = {};
+  for (const [key, color] of Object.entries(colors)) {
+    const colorObj = {
       DEFAULT: color.hex,
       hex: color.hex,
       rgb: `rgb(${color.rgb.join(', ')})`,
-      name: {
-        ja: color.name.ja,
-        en: color.name.en,
-        reading: color.name.reading
-      },
+      name: color.name,
       description: color.description
     };
+    result[key] = colorObj;
   }
+  return result;
+}
 
-  return colors;
+/**
+ * Generate Tailwind CSS color objects with metadata for all regions
+ */
+function generateTailwindColorsWithMeta(colorData) {
+  return {
+    japanese: generateRegionColorsWithMeta(colorData.japanese.colors.japanese, true),
+    chinese: generateRegionColorsWithMeta(colorData.chinese.colors.chinese, false),
+    european: generateRegionColorsWithMeta(colorData.european.colors.european, false)
+  };
 }
 
 /**
@@ -64,7 +82,7 @@ function generateTailwindColorsWithMeta(colorData) {
  */
 function generateESM(colors, colorsWithMeta) {
   return `/**
- * Traditional Japanese Colors for Tailwind CSS
+ * Traditional Colors for Tailwind CSS
  * @module @traditional-colors/tailwind
  */
 
@@ -83,16 +101,54 @@ function generateESM(colors, colorsWithMeta) {
  *   }
  * }
  */
-export const japaneseColors = ${JSON.stringify(colors, null, 2)};
+export const japaneseColors = ${JSON.stringify(colors.japanese, null, 2)};
+
+/**
+ * Chinese traditional colors (simple format)
+ */
+export const chineseColors = ${JSON.stringify(colors.chinese, null, 2)};
+
+/**
+ * European traditional colors (simple format)
+ */
+export const europeanColors = ${JSON.stringify(colors.european, null, 2)};
+
+/**
+ * All traditional colors organized by region
+ */
+export const allColors = {
+  japanese: japaneseColors,
+  chinese: chineseColors,
+  european: europeanColors
+};
 
 /**
  * Japanese traditional colors with metadata
  * Includes color names, descriptions, and multiple format values
  */
-export const japaneseColorsWithMeta = ${JSON.stringify(colorsWithMeta, null, 2)};
+export const japaneseColorsWithMeta = ${JSON.stringify(colorsWithMeta.japanese, null, 2)};
 
 /**
- * Default export (simple format)
+ * Chinese traditional colors with metadata
+ */
+export const chineseColorsWithMeta = ${JSON.stringify(colorsWithMeta.chinese, null, 2)};
+
+/**
+ * European traditional colors with metadata
+ */
+export const europeanColorsWithMeta = ${JSON.stringify(colorsWithMeta.european, null, 2)};
+
+/**
+ * All traditional colors with metadata
+ */
+export const allColorsWithMeta = {
+  japanese: japaneseColorsWithMeta,
+  chinese: chineseColorsWithMeta,
+  european: europeanColorsWithMeta
+};
+
+/**
+ * Default export (Japanese colors for backward compatibility)
  */
 export default japaneseColors;
 `;
@@ -103,23 +159,39 @@ export default japaneseColors;
  */
 function generateCJS(colors, colorsWithMeta) {
   return `/**
- * Traditional Japanese Colors for Tailwind CSS
+ * Traditional Colors for Tailwind CSS
  * @module @traditional-colors/tailwind
  */
 
-/**
- * Japanese traditional colors (simple format)
- */
-const japaneseColors = ${JSON.stringify(colors, null, 2)};
+const japaneseColors = ${JSON.stringify(colors.japanese, null, 2)};
+const chineseColors = ${JSON.stringify(colors.chinese, null, 2)};
+const europeanColors = ${JSON.stringify(colors.european, null, 2)};
 
-/**
- * Japanese traditional colors with metadata
- */
-const japaneseColorsWithMeta = ${JSON.stringify(colorsWithMeta, null, 2)};
+const allColors = {
+  japanese: japaneseColors,
+  chinese: chineseColors,
+  european: europeanColors
+};
+
+const japaneseColorsWithMeta = ${JSON.stringify(colorsWithMeta.japanese, null, 2)};
+const chineseColorsWithMeta = ${JSON.stringify(colorsWithMeta.chinese, null, 2)};
+const europeanColorsWithMeta = ${JSON.stringify(colorsWithMeta.european, null, 2)};
+
+const allColorsWithMeta = {
+  japanese: japaneseColorsWithMeta,
+  chinese: chineseColorsWithMeta,
+  european: europeanColorsWithMeta
+};
 
 module.exports = {
   japaneseColors,
+  chineseColors,
+  europeanColors,
+  allColors,
   japaneseColorsWithMeta,
+  chineseColorsWithMeta,
+  europeanColorsWithMeta,
+  allColorsWithMeta,
   default: japaneseColors
 };
 `;
@@ -133,7 +205,7 @@ function generatePlugin(colors) {
   const pluginCjsPath = join(OUTPUT_DIR, 'plugin.cjs');
 
   const esmContent = `/**
- * Tailwind CSS Plugin for Japanese Traditional Colors
+ * Tailwind CSS Plugin for Traditional Colors
  *
  * @example
  * // tailwind.config.js
@@ -146,12 +218,16 @@ function generatePlugin(colors) {
 
 import plugin from 'tailwindcss/plugin.js';
 
-const japaneseColors = ${JSON.stringify(colors, null, 2)};
+const japaneseColors = ${JSON.stringify(colors.japanese, null, 2)};
+const chineseColors = ${JSON.stringify(colors.chinese, null, 2)};
+const europeanColors = ${JSON.stringify(colors.european, null, 2)};
+
+const allColors = { ...japaneseColors, ...chineseColors, ...europeanColors };
 
 export default plugin(function({ addBase, theme }) {
   // Add CSS variables for all colors
   addBase({
-    ':root': Object.entries(japaneseColors).reduce((acc, [key, value]) => {
+    ':root': Object.entries(allColors).reduce((acc, [key, value]) => {
       acc[\`--color-\${key}\`] = value;
       return acc;
     }, {})
@@ -160,7 +236,9 @@ export default plugin(function({ addBase, theme }) {
   theme: {
     extend: {
       colors: {
-        traditional: japaneseColors
+        jp: japaneseColors,
+        cn: chineseColors,
+        eu: europeanColors
       }
     }
   }
@@ -168,16 +246,20 @@ export default plugin(function({ addBase, theme }) {
 `;
 
   const cjsContent = `/**
- * Tailwind CSS Plugin for Japanese Traditional Colors
+ * Tailwind CSS Plugin for Traditional Colors
  */
 
 const plugin = require('tailwindcss/plugin');
 
-const japaneseColors = ${JSON.stringify(colors, null, 2)};
+const japaneseColors = ${JSON.stringify(colors.japanese, null, 2)};
+const chineseColors = ${JSON.stringify(colors.chinese, null, 2)};
+const europeanColors = ${JSON.stringify(colors.european, null, 2)};
+
+const allColors = { ...japaneseColors, ...chineseColors, ...europeanColors };
 
 module.exports = plugin(function({ addBase, theme }) {
   addBase({
-    ':root': Object.entries(japaneseColors).reduce((acc, [key, value]) => {
+    ':root': Object.entries(allColors).reduce((acc, [key, value]) => {
       acc[\`--color-\${key}\`] = value;
       return acc;
     }, {})
@@ -186,7 +268,9 @@ module.exports = plugin(function({ addBase, theme }) {
   theme: {
     extend: {
       colors: {
-        traditional: japaneseColors
+        jp: japaneseColors,
+        cn: chineseColors,
+        eu: europeanColors
       }
     }
   }
@@ -269,7 +353,11 @@ function main() {
 
   // Load data
   const colorData = loadColorData();
-  console.log(`✓ Loaded ${colorData.metadata.totalColors} colors`);
+  const totalColors =
+    colorData.japanese.metadata.totalColors +
+    colorData.chinese.metadata.totalColors +
+    colorData.european.metadata.totalColors;
+  console.log(`✓ Loaded ${totalColors} colors (JP: ${colorData.japanese.metadata.totalColors}, CN: ${colorData.chinese.metadata.totalColors}, EU: ${colorData.european.metadata.totalColors})`);
 
   // Generate color objects
   const colors = generateTailwindColors(colorData);

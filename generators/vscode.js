@@ -10,15 +10,28 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
-const DATA_PATH = join(__dirname, '../data/colors/japanese.json');
+const DATA_DIR = join(__dirname, '../data/colors');
 const OUTPUT_DIR = join(__dirname, '../dist/vscode');
 
 /**
- * Load color data from JSON file
+ * Load color data from all JSON files
+ * Note: VS Code themes primarily use Japanese colors, but we load all for future expansion
  */
 function loadColorData() {
-  const data = readFileSync(DATA_PATH, 'utf-8');
-  return JSON.parse(data);
+  const japanese = JSON.parse(readFileSync(join(DATA_DIR, 'japanese.json'), 'utf-8'));
+  const chinese = JSON.parse(readFileSync(join(DATA_DIR, 'chinese.json'), 'utf-8'));
+  const european = JSON.parse(readFileSync(join(DATA_DIR, 'european.json'), 'utf-8'));
+
+  return {
+    japanese: japanese.colors.japanese,
+    chinese: chinese.colors.chinese,
+    european: european.colors.european,
+    metadata: {
+      japanese: japanese.metadata,
+      chinese: chinese.metadata,
+      european: european.metadata
+    }
+  };
 }
 
 /**
@@ -429,8 +442,13 @@ function main() {
 
   // Load data
   const colorData = loadColorData();
-  const colors = colorData.colors.japanese;
-  console.log(`✓ Loaded ${colorData.metadata.totalColors} colors`);
+  const colors = colorData.japanese;
+  const totalColors =
+    colorData.metadata.japanese.totalColors +
+    colorData.metadata.chinese.totalColors +
+    colorData.metadata.european.totalColors;
+  console.log(`✓ Loaded ${totalColors} colors (JP: ${colorData.metadata.japanese.totalColors}, CN: ${colorData.metadata.chinese.totalColors}, EU: ${colorData.metadata.european.totalColors})`);
+  console.log(`✓ Using ${colorData.metadata.japanese.totalColors} Japanese colors for VS Code themes`);
 
   // Create output directory
   mkdirSync(OUTPUT_DIR, { recursive: true });
@@ -516,7 +534,7 @@ Beautiful VS Code themes using traditional Japanese colors (和色 / わいろ).
 
 ## Color Palette
 
-This theme uses 50 authentic traditional Japanese colors, including:
+This theme uses 100 authentic traditional Japanese colors, including:
 
 - 紅梅 (Koubai) - Crimson plum blossom
 - 桜色 (Sakura) - Cherry blossom pink
