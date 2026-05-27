@@ -516,7 +516,7 @@ function main() {
   // Generate README
   const readme = `# Traditional Japanese Colors - VS Code Theme
 
-Beautiful VS Code themes using traditional Japanese colors (和色 / わいろ).
+Beautiful VS Code themes using traditional Japanese colors (和色 / わしょく).
 
 ## Themes
 

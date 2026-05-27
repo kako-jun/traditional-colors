@@ -51,7 +51,7 @@ function generateTailwindColors(colorData) {
 /**
  * Generate Tailwind CSS color object with detailed metadata for a region
  */
-function generateRegionColorsWithMeta(colors, hasReading = false) {
+function generateRegionColorsWithMeta(colors) {
   const result = {};
   for (const [key, color] of Object.entries(colors)) {
     const colorObj = {
@@ -71,9 +71,9 @@ function generateRegionColorsWithMeta(colors, hasReading = false) {
  */
 function generateTailwindColorsWithMeta(colorData) {
   return {
-    japanese: generateRegionColorsWithMeta(colorData.japanese.colors.japanese, true),
-    chinese: generateRegionColorsWithMeta(colorData.chinese.colors.chinese, false),
-    european: generateRegionColorsWithMeta(colorData.european.colors.european, false)
+    japanese: generateRegionColorsWithMeta(colorData.japanese.colors.japanese),
+    chinese: generateRegionColorsWithMeta(colorData.chinese.colors.chinese),
+    european: generateRegionColorsWithMeta(colorData.european.colors.european)
   };
 }
 
@@ -362,6 +362,22 @@ function main() {
   // Generate color objects
   const colors = generateTailwindColors(colorData);
   const colorsWithMeta = generateTailwindColorsWithMeta(colorData);
+
+  // Check for key collisions across regions
+  const allKeys = [
+    ...Object.keys(colors.japanese),
+    ...Object.keys(colors.chinese),
+    ...Object.keys(colors.european)
+  ];
+  const seen = new Set();
+  const duplicates = [];
+  for (const key of allKeys) {
+    if (seen.has(key)) duplicates.push(key);
+    seen.add(key);
+  }
+  if (duplicates.length > 0) {
+    throw new Error(`Key collision detected across regions: ${duplicates.join(', ')}`);
+  }
 
   // Create output directory
   mkdirSync(OUTPUT_DIR, { recursive: true });

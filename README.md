@@ -1,210 +1,155 @@
-# Traditional Colors
+# traditional-colors
 
-> Beautiful traditional colors from Japan, China, and Europe for modern frameworks
+> 世界の伝統色を、現代のフレームワークで。
+
+日本・中国・欧州の伝統色 176色を、Tailwind CSS・CSS Variables・VS Code テーマとして提供するライブラリ。
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![npm version](https://img.shields.io/npm/v/@traditional-colors/core.svg)](https://www.npmjs.com/package/@traditional-colors/core)
 
-**Traditional Colors** is a comprehensive color library that brings authentic traditional colors to your development workflow. Unlike existing solutions, we provide multi-framework support from a single source of truth.
+---
 
-## ✨ Features
+## 特徴
 
-- 🎨 **50+ Traditional Japanese Colors** - Authentic colors like 紅梅 (Koubai), 桜色 (Sakura), 藍色 (Ai)
-- 🔧 **Multi-Framework Support** - Tailwind CSS, VS Code, CSS Variables, SCSS, and more
-- 📦 **TypeScript Ready** - Full type definitions included
-- 🌍 **Internationalized** - Color names in Japanese, English, and romanized readings
-- 🎯 **Zero Dependencies** - Lightweight and tree-shakeable
-- 📖 **Rich Metadata** - HEX, RGB, HSL, CMYK values + descriptions and cultural context
+- **176色収録**：日本 99色・中国 47色・欧州 30色
+- **複数フォーマット対応**：Tailwind CSS / CSS Variables / SCSS / VS Code テーマ
+- **ゼロ依存**：生成物は単体で使える。バンドラー不要
+- **文化的コンテキスト付き**：色名の日本語・英語・読み仮名・説明文を収録
+- **メンテナンス継続中**：直接競合（nippon-colors 等）はすべてアーカイブ済み
 
-## 🎯 Supported Frameworks
+---
 
-| Framework | Status | Package |
-|-----------|--------|---------|
-| **Tailwind CSS** | ✅ Ready | Plugin + Config |
-| **VS Code** | ✅ Ready | Dark & Light Themes |
-| **CSS Variables** | ✅ Ready | :root CSS + Utilities |
-| **Sass/SCSS** | 🚧 Coming Soon | Variables + Functions |
-| **Material-UI** | 🚧 Coming Soon | Theme Palette |
-| **Figma** | 🚧 Coming Soon | Color Styles |
-| **Bootstrap** | 🚧 Coming Soon | SCSS Variables |
-
-## 📦 Installation
+## インストール
 
 ```bash
 npm install @traditional-colors/core
 ```
 
-## 🚀 Quick Start
+---
+
+## 使い方
 
 ### Tailwind CSS
 
-```javascript
+```js
 // tailwind.config.js
-import { japaneseColors } from '@traditional-colors/tailwind';
+import { japaneseColors, chineseColors, europeanColors } from '@traditional-colors/core/tailwind';
 
 export default {
   theme: {
     extend: {
-      colors: japaneseColors
+      colors: {
+        jp: japaneseColors,
+        cn: chineseColors,
+        eu: europeanColors,
+      }
     }
   }
 }
 ```
 
-```jsx
-// Use in your components
-<div className="bg-sakura text-ai">
-  <h1 className="text-koubai">Hello World</h1>
+```html
+<!-- クラス名で使う -->
+<div class="bg-jp-sakura text-jp-ai">
+  <h1 class="text-jp-koubai">桜</h1>
 </div>
 ```
 
-### CSS Variables
+#### Tailwind Plugin（CSS Variables として自動登録）
+
+```js
+// tailwind.config.js
+import traditionalColors from '@traditional-colors/core/tailwind/plugin';
+
+export default {
+  plugins: [traditionalColors]
+}
+```
 
 ```css
-/* Import the CSS file */
-@import '@traditional-colors/core/dist/css/colors.css';
-
+/* CSS で直接使う */
 .my-element {
   color: var(--color-koubai);
   background-color: var(--color-sakura);
 }
 ```
 
-### VS Code Theme
+---
 
-1. Copy `dist/vscode/` to your VS Code extensions folder
-2. Reload VS Code
-3. Select **"Traditional Japanese Colors - Dark"** or **"Light"** from Color Theme
+### CSS Variables
 
-### Programmatic Usage
-
-```typescript
-import { colors } from '@traditional-colors/core';
-
-// Get a specific color
-const sakura = colors.japanese.sakura;
-console.log(sakura);
-// {
-//   name: { ja: '桜色', en: 'Sakura', reading: 'さくらいろ' },
-//   hex: '#FEEEED',
-//   rgb: [254, 238, 237],
-//   hsl: [4, 85, 96],
-//   category: 'pink',
-//   tags: ['flower', 'spring', 'light'],
-//   description: {
-//     ja: '桜の花のような淡いピンク色',
-//     en: 'Pale pink like cherry blossoms'
-//   }
-// }
+```html
+<link rel="stylesheet" href="node_modules/@traditional-colors/core/dist/css/colors.css">
 ```
 
-## 🎨 Color Palette
-
-### Featured Colors
-
-| Color | Japanese | Reading | HEX | Preview |
-|-------|----------|---------|-----|---------|
-| Koubai | 紅梅 | こうばい | `#F2A0A1` | ![](https://via.placeholder.com/40/F2A0A1/F2A0A1) |
-| Sakura | 桜色 | さくらいろ | `#FEEEED` | ![](https://via.placeholder.com/40/FEEEED/FEEEED) |
-| Ai | 藍色 | あいいろ | `#165E83` | ![](https://via.placeholder.com/40/165E83/165E83) |
-| Moegi | 萌黄 | もえぎ | `#90B44B` | ![](https://via.placeholder.com/40/90B44B/90B44B) |
-| Yamabuki | 山吹色 | やまぶきいろ | `#F8B500` | ![](https://via.placeholder.com/40/F8B500/F8B500) |
-| Fuji | 藤色 | ふじいろ | `#A59ACA` | ![](https://via.placeholder.com/40/A59ACA/A59ACA) |
-
-[View all 50 colors →](./data/colors/japanese.json)
-
-## 🏗️ Build from Source
-
-```bash
-# Clone the repository
-git clone https://github.com/kako-jun/traditional-colors.git
-cd traditional-colors
-
-# Install dependencies
-npm install
-
-# Build all generators
-npm run build
-
-# Build specific framework
-npm run build:tailwind
-npm run build:vscode
-npm run build:css
+```css
+.my-element {
+  color: var(--color-koubai);         /* 紅梅 #F2A0A1 */
+  background-color: var(--color-ai);  /* 藍色 #165E83 */
+}
 ```
-
-## 📂 Project Structure
-
-```
-traditional-colors/
-├── data/
-│   ├── colors/
-│   │   ├── japanese.json      # 50 Japanese traditional colors
-│   │   ├── chinese.json       # (Coming soon)
-│   │   └── european.json      # (Coming soon)
-│   └── schema.json            # JSON schema definition
-├── generators/
-│   ├── tailwind.js            # Tailwind CSS generator
-│   ├── vscode.js              # VS Code theme generator
-│   ├── css-variables.js       # CSS/SCSS generator
-│   └── build-all.js           # Build all generators
-├── dist/                      # Generated files
-│   ├── tailwind/
-│   ├── vscode/
-│   └── css/
-└── docs/                      # Documentation site (Coming soon)
-```
-
-## 🎯 Why Traditional Colors?
-
-### vs. nippon-colors (npm)
-- ❌ **nippon-colors**: Archived since 2020, no framework integration
-- ✅ **traditional-colors**: Active maintenance, multi-framework support
-
-### vs. PostCSS plugins
-- ❌ **Other solutions**: Single framework only
-- ✅ **traditional-colors**: One package, multiple frameworks
-
-### vs. VS Code themes
-- ❌ **Existing themes**: Theme only, no programmatic access
-- ✅ **traditional-colors**: Theme + color data for your projects
-
-## 🌏 Coming Soon
-
-- 🇨🇳 Chinese traditional colors (50+ colors)
-- 🇪🇺 European traditional colors (30+ colors)
-- 📱 React Native support
-- 🎨 Figma plugin
-- 🔍 Color search & palette generator
-- ♿ WCAG contrast ratio information
-- 🌈 Color harmony suggestions
-
-## 🤝 Contributing
-
-Contributions are welcome! Please read our [Contributing Guide](./CONTRIBUTING.md) for details.
-
-### Adding Colors
-
-1. Add color data to `data/colors/japanese.json`
-2. Follow the schema in `data/schema.json`
-3. Run `npm run build` to regenerate all outputs
-4. Submit a Pull Request
-
-## 📜 License
-
-MIT License - see [LICENSE](./LICENSE) file for details
-
-## 🙏 Acknowledgments
-
-- Color data inspired by [NIPPON COLORS](https://nipponcolors.com/)
-- Traditional color research from Japanese cultural sources
-- Community contributors
-
-## 📞 Support
-
-- 🐛 [Report a bug](https://github.com/kako-jun/traditional-colors/issues)
-- 💡 [Request a feature](https://github.com/kako-jun/traditional-colors/issues)
-- 💬 [Discussions](https://github.com/kako-jun/traditional-colors/discussions)
 
 ---
 
-Made with ❤️ by the Traditional Colors community
+### SCSS
+
+```scss
+@use 'node_modules/@traditional-colors/core/dist/css/colors' as tc;
+
+.my-element {
+  color: $color-koubai;
+  background-color: $color-sakura;
+}
+```
+
+---
+
+### VS Code テーマ
+
+1. `dist/vscode/` フォルダを VS Code の拡張機能フォルダにコピー
+2. VS Code を再起動
+3. カラーテーマから **"Traditional Japanese Colors - Dark"** または **"Light"** を選択
+
+---
+
+## 収録色（抜粋）
+
+### 日本（和色）99色
+
+| 色名 | 読み | HEX |
+|---|---|---|
+| 紅梅 | こうばい | `#F2A0A1` |
+| 桜色 | さくらいろ | `#FEEEED` |
+| 山吹色 | やまぶきいろ | `#F8B500` |
+| 常磐色 | ときわいろ | `#007B43` |
+| 藍色 | あいいろ | `#165E83` |
+| 瑠璃色 | るりいろ | `#1D2088` |
+| 藤色 | ふじいろ | `#A59ACA` |
+| 臙脂 | えんじ | `#9B003F` |
+
+### 中国 47色 / 欧州 30色
+
+中国の伝統色・欧州の伝統色も同様のキー形式で利用できます。
+
+---
+
+## ビルド（コントリビューター向け）
+
+```bash
+git clone https://github.com/kako-jun/traditional-colors.git
+cd traditional-colors
+npm install
+npm run build       # dist/ を全生成
+```
+
+### データ追加
+
+1. `data/colors/japanese.json`（または chinese / european）に色を追加
+2. `data/schema.json` のスキーマに従う
+3. `npm run build` で再生成
+
+---
+
+## ライセンス
+
+MIT

@@ -23,7 +23,7 @@ async function runGenerator(generator) {
   console.log(`\n🔨 Building ${generator.name}...`);
 
   try {
-    const { stdout, stderr } = await execAsync(`node ${filePath}`);
+    const { stdout, stderr } = await execAsync(`node "${filePath}"`);
 
     if (stdout) {
       console.log(stdout);

@@ -12,11 +12,28 @@
           "en": "Light crimson like Japanese apricot blossoms"
         },
         "hex": "#F2A0A1",
-        "rgb": [242, 160, 161],
-        "hsl": [359, 71, 79],
-        "cmyk": [0, 34, 33, 5],
+        "rgb": [
+          242,
+          160,
+          161
+        ],
+        "hsl": [
+          359,
+          71,
+          79
+        ],
+        "cmyk": [
+          0,
+          34,
+          33,
+          5
+        ],
         "category": "pink",
-        "tags": ["flower", "spring", "warm"],
+        "tags": [
+          "flower",
+          "spring",
+          "warm"
+        ],
         "origin": "Named after the color of red plum blossoms"
       },
       "sakura": {
@@ -30,11 +47,28 @@
           "en": "Pale pink like cherry blossoms"
         },
         "hex": "#FEEEED",
-        "rgb": [254, 238, 237],
-        "hsl": [4, 85, 96],
-        "cmyk": [0, 6, 7, 0],
+        "rgb": [
+          254,
+          238,
+          237
+        ],
+        "hsl": [
+          4,
+          85,
+          96
+        ],
+        "cmyk": [
+          0,
+          6,
+          7,
+          0
+        ],
         "category": "pink",
-        "tags": ["flower", "spring", "light"],
+        "tags": [
+          "flower",
+          "spring",
+          "light"
+        ],
         "origin": "Named after cherry blossoms, Japan's national flower"
       },
       "momo": {
@@ -48,11 +82,28 @@
           "en": "Bright pink like peach blossoms"
         },
         "hex": "#F09199",
-        "rgb": [240, 145, 153],
-        "hsl": [355, 76, 75],
-        "cmyk": [0, 40, 36, 6],
+        "rgb": [
+          240,
+          145,
+          153
+        ],
+        "hsl": [
+          355,
+          76,
+          75
+        ],
+        "cmyk": [
+          0,
+          40,
+          36,
+          6
+        ],
         "category": "pink",
-        "tags": ["flower", "spring", "warm"],
+        "tags": [
+          "flower",
+          "spring",
+          "warm"
+        ],
         "origin": "Named after peach blossoms"
       },
       "nadeshiko": {
@@ -66,11 +117,28 @@
           "en": "Pale crimson like dianthus flowers"
         },
         "hex": "#F19CA7",
-        "rgb": [241, 156, 167],
-        "hsl": [352, 75, 78],
-        "cmyk": [0, 35, 31, 5],
+        "rgb": [
+          241,
+          156,
+          167
+        ],
+        "hsl": [
+          352,
+          75,
+          78
+        ],
+        "cmyk": [
+          0,
+          35,
+          31,
+          5
+        ],
         "category": "pink",
-        "tags": ["flower", "summer", "delicate"],
+        "tags": [
+          "flower",
+          "summer",
+          "delicate"
+        ],
         "origin": "Named after nadeshiko (dianthus) flowers"
       },
       "sango": {
@@ -84,11 +152,28 @@
           "en": "Pale reddish pink like coral"
         },
         "hex": "#F5B1AA",
-        "rgb": [245, 177, 170],
-        "hsl": [6, 79, 81],
-        "cmyk": [0, 28, 31, 4],
+        "rgb": [
+          245,
+          177,
+          170
+        ],
+        "hsl": [
+          6,
+          79,
+          81
+        ],
+        "cmyk": [
+          0,
+          28,
+          31,
+          4
+        ],
         "category": "pink",
-        "tags": ["nature", "warm", "ocean"],
+        "tags": [
+          "nature",
+          "warm",
+          "ocean"
+        ],
         "origin": "Named after coral"
       },
       "beni": {
@@ -102,11 +187,28 @@
           "en": "Vivid red from safflower dye"
         },
         "hex": "#D7003A",
-        "rgb": [215, 0, 58],
-        "hsl": [344, 100, 42],
-        "cmyk": [0, 100, 73, 16],
+        "rgb": [
+          215,
+          0,
+          58
+        ],
+        "hsl": [
+          344,
+          100,
+          42
+        ],
+        "cmyk": [
+          0,
+          100,
+          73,
+          16
+        ],
         "category": "red",
-        "tags": ["dye", "vivid", "warm"],
+        "tags": [
+          "dye",
+          "vivid",
+          "warm"
+        ],
         "origin": "Named after safflower (benibana) dye"
       },
       "akane": {
@@ -120,11 +222,28 @@
           "en": "Deep red from madder plant dye"
         },
         "hex": "#B7282E",
-        "rgb": [183, 40, 46],
-        "hsl": [358, 64, 44],
-        "cmyk": [0, 78, 75, 28],
+        "rgb": [
+          183,
+          40,
+          46
+        ],
+        "hsl": [
+          358,
+          64,
+          44
+        ],
+        "cmyk": [
+          0,
+          78,
+          75,
+          28
+        ],
         "category": "red",
-        "tags": ["dye", "deep", "warm"],
+        "tags": [
+          "dye",
+          "deep",
+          "warm"
+        ],
         "origin": "Named after madder (akane) plant used for dyeing"
       },
       "enji": {
@@ -138,11 +257,28 @@
           "en": "Deep red from cochineal insect dye"
         },
         "hex": "#B94047",
-        "rgb": [185, 64, 71],
-        "hsl": [357, 49, 49],
-        "cmyk": [0, 65, 62, 27],
+        "rgb": [
+          185,
+          64,
+          71
+        ],
+        "hsl": [
+          357,
+          49,
+          49
+        ],
+        "cmyk": [
+          0,
+          65,
+          62,
+          27
+        ],
         "category": "red",
-        "tags": ["dye", "deep", "warm"],
+        "tags": [
+          "dye",
+          "deep",
+          "warm"
+        ],
         "origin": "Named after cochineal insect dye"
       },
       "suo": {
@@ -156,11 +292,28 @@
           "en": "Dark red from sappanwood dye"
         },
         "hex": "#8E354A",
-        "rgb": [142, 53, 74],
-        "hsl": [346, 46, 38],
-        "cmyk": [0, 63, 48, 44],
+        "rgb": [
+          142,
+          53,
+          74
+        ],
+        "hsl": [
+          346,
+          46,
+          38
+        ],
+        "cmyk": [
+          0,
+          63,
+          48,
+          44
+        ],
         "category": "red",
-        "tags": ["dye", "dark", "warm"],
+        "tags": [
+          "dye",
+          "dark",
+          "warm"
+        ],
         "origin": "Named after sappanwood (suou) used for dyeing"
       },
       "ai": {
@@ -174,11 +327,28 @@
           "en": "Deep blue from indigo dye"
         },
         "hex": "#165E83",
-        "rgb": [22, 94, 131],
-        "hsl": [200, 71, 30],
-        "cmyk": [83, 28, 0, 49],
+        "rgb": [
+          22,
+          94,
+          131
+        ],
+        "hsl": [
+          200,
+          71,
+          30
+        ],
+        "cmyk": [
+          83,
+          28,
+          0,
+          49
+        ],
         "category": "blue",
-        "tags": ["dye", "deep", "cool"],
+        "tags": [
+          "dye",
+          "deep",
+          "cool"
+        ],
         "origin": "Named after indigo (ai) plant dye"
       },
       "asagi": {
@@ -192,11 +362,28 @@
           "en": "Light blue-green like young onion shoots"
         },
         "hex": "#00A3AF",
-        "rgb": [0, 163, 175],
-        "hsl": [184, 100, 34],
-        "cmyk": [100, 7, 0, 31],
+        "rgb": [
+          0,
+          163,
+          175
+        ],
+        "hsl": [
+          184,
+          100,
+          34
+        ],
+        "cmyk": [
+          100,
+          7,
+          0,
+          31
+        ],
         "category": "blue",
-        "tags": ["nature", "fresh", "cool"],
+        "tags": [
+          "nature",
+          "fresh",
+          "cool"
+        ],
         "origin": "Named after young onion (asagi) shoots"
       },
       "ruri": {
@@ -210,11 +397,28 @@
           "en": "Deep blue like lapis lazuli"
         },
         "hex": "#1E50A2",
-        "rgb": [30, 80, 162],
-        "hsl": [217, 69, 38],
-        "cmyk": [81, 51, 0, 36],
+        "rgb": [
+          30,
+          80,
+          162
+        ],
+        "hsl": [
+          217,
+          69,
+          38
+        ],
+        "cmyk": [
+          81,
+          51,
+          0,
+          36
+        ],
         "category": "blue",
-        "tags": ["mineral", "deep", "cool"],
+        "tags": [
+          "mineral",
+          "deep",
+          "cool"
+        ],
         "origin": "Named after lapis lazuli gemstone"
       },
       "gunjou": {
@@ -228,11 +432,28 @@
           "en": "Vivid blue from mineral pigment"
         },
         "hex": "#4C6CB3",
-        "rgb": [76, 108, 179],
-        "hsl": [221, 40, 50],
-        "cmyk": [58, 40, 0, 30],
+        "rgb": [
+          76,
+          108,
+          179
+        ],
+        "hsl": [
+          221,
+          40,
+          50
+        ],
+        "cmyk": [
+          58,
+          40,
+          0,
+          30
+        ],
         "category": "blue",
-        "tags": ["mineral", "vivid", "cool"],
+        "tags": [
+          "mineral",
+          "vivid",
+          "cool"
+        ],
         "origin": "Named after ultramarine pigment from azurite"
       },
       "mizuasagi": {
@@ -246,11 +467,28 @@
           "en": "Pale blue-green like water"
         },
         "hex": "#80ABA9",
-        "rgb": [128, 171, 169],
-        "hsl": [177, 21, 59],
-        "cmyk": [25, 0, 1, 33],
+        "rgb": [
+          128,
+          171,
+          169
+        ],
+        "hsl": [
+          177,
+          21,
+          59
+        ],
+        "cmyk": [
+          25,
+          0,
+          1,
+          33
+        ],
         "category": "blue",
-        "tags": ["water", "light", "cool"],
+        "tags": [
+          "water",
+          "light",
+          "cool"
+        ],
         "origin": "Light version of asagi color"
       },
       "hanada": {
@@ -264,11 +502,27 @@
           "en": "Bright blue from indigo dyeing"
         },
         "hex": "#2A4073",
-        "rgb": [42, 64, 115],
-        "hsl": [222, 46, 31],
-        "cmyk": [63, 44, 0, 55],
+        "rgb": [
+          42,
+          64,
+          115
+        ],
+        "hsl": [
+          222,
+          46,
+          31
+        ],
+        "cmyk": [
+          63,
+          44,
+          0,
+          55
+        ],
         "category": "blue",
-        "tags": ["dye", "cool"],
+        "tags": [
+          "dye",
+          "cool"
+        ],
         "origin": "A type of indigo dyeing technique"
       },
       "kon": {
@@ -282,11 +536,28 @@
           "en": "Dark indigo blue"
         },
         "hex": "#223A70",
-        "rgb": [34, 58, 112],
-        "hsl": [222, 53, 29],
-        "cmyk": [70, 48, 0, 56],
+        "rgb": [
+          34,
+          58,
+          112
+        ],
+        "hsl": [
+          222,
+          53,
+          29
+        ],
+        "cmyk": [
+          70,
+          48,
+          0,
+          56
+        ],
         "category": "blue",
-        "tags": ["dye", "dark", "cool"],
+        "tags": [
+          "dye",
+          "dark",
+          "cool"
+        ],
         "origin": "Deep shade of indigo"
       },
       "wasurenagusa": {
@@ -300,11 +571,28 @@
           "en": "Pale blue like forget-me-not flowers"
         },
         "hex": "#7DB9DE",
-        "rgb": [125, 185, 222],
-        "hsl": [203, 60, 68],
-        "cmyk": [44, 17, 0, 13],
+        "rgb": [
+          125,
+          185,
+          222
+        ],
+        "hsl": [
+          203,
+          60,
+          68
+        ],
+        "cmyk": [
+          44,
+          17,
+          0,
+          13
+        ],
         "category": "blue",
-        "tags": ["flower", "light", "cool"],
+        "tags": [
+          "flower",
+          "light",
+          "cool"
+        ],
         "origin": "Named after forget-me-not flowers"
       },
       "sora": {
@@ -318,11 +606,28 @@
           "en": "Bright blue like a clear sky"
         },
         "hex": "#A0D8EF",
-        "rgb": [160, 216, 239],
-        "hsl": [197, 70, 78],
-        "cmyk": [33, 10, 0, 6],
+        "rgb": [
+          160,
+          216,
+          239
+        ],
+        "hsl": [
+          197,
+          70,
+          78
+        ],
+        "cmyk": [
+          33,
+          10,
+          0,
+          6
+        ],
         "category": "blue",
-        "tags": ["sky", "light", "cool"],
+        "tags": [
+          "sky",
+          "light",
+          "cool"
+        ],
         "origin": "Named after the sky"
       },
       "mizu": {
@@ -336,11 +641,28 @@
           "en": "Pale blue like water"
         },
         "hex": "#BCE2E8",
-        "rgb": [188, 226, 232],
-        "hsl": [188, 48, 82],
-        "cmyk": [19, 3, 0, 9],
+        "rgb": [
+          188,
+          226,
+          232
+        ],
+        "hsl": [
+          188,
+          48,
+          82
+        ],
+        "cmyk": [
+          19,
+          3,
+          0,
+          9
+        ],
         "category": "blue",
-        "tags": ["water", "light", "cool"],
+        "tags": [
+          "water",
+          "light",
+          "cool"
+        ],
         "origin": "Named after water"
       },
       "moegi": {
@@ -354,11 +676,28 @@
           "en": "Bright yellow-green like fresh sprouts"
         },
         "hex": "#90B44B",
-        "rgb": [144, 180, 75],
-        "hsl": [80, 40, 50],
-        "cmyk": [20, 0, 58, 29],
+        "rgb": [
+          144,
+          180,
+          75
+        ],
+        "hsl": [
+          80,
+          40,
+          50
+        ],
+        "cmyk": [
+          20,
+          0,
+          58,
+          29
+        ],
         "category": "green",
-        "tags": ["nature", "spring", "fresh"],
+        "tags": [
+          "nature",
+          "spring",
+          "fresh"
+        ],
         "origin": "Named after budding young shoots"
       },
       "wakakusa": {
@@ -372,11 +711,28 @@
           "en": "Vivid yellow-green like young grass"
         },
         "hex": "#C3D825",
-        "rgb": [195, 216, 37],
-        "hsl": [67, 71, 50],
-        "cmyk": [10, 0, 83, 15],
+        "rgb": [
+          195,
+          216,
+          37
+        ],
+        "hsl": [
+          67,
+          71,
+          50
+        ],
+        "cmyk": [
+          10,
+          0,
+          83,
+          15
+        ],
         "category": "green",
-        "tags": ["nature", "spring", "vivid"],
+        "tags": [
+          "nature",
+          "spring",
+          "vivid"
+        ],
         "origin": "Named after young grass"
       },
       "uguisu": {
@@ -390,11 +746,28 @@
           "en": "Muted green like Japanese bush warbler feathers"
         },
         "hex": "#928C36",
-        "rgb": [146, 140, 54],
-        "hsl": [56, 46, 39],
-        "cmyk": [0, 4, 63, 43],
+        "rgb": [
+          146,
+          140,
+          54
+        ],
+        "hsl": [
+          56,
+          46,
+          39
+        ],
+        "cmyk": [
+          0,
+          4,
+          63,
+          43
+        ],
         "category": "green",
-        "tags": ["bird", "nature", "muted"],
+        "tags": [
+          "bird",
+          "nature",
+          "muted"
+        ],
         "origin": "Named after the Japanese bush warbler (uguisu)"
       },
       "matcha": {
@@ -408,11 +781,28 @@
           "en": "Soft green like matcha tea powder"
         },
         "hex": "#C5C56A",
-        "rgb": [197, 197, 106],
-        "hsl": [60, 43, 59],
-        "cmyk": [0, 0, 46, 23],
+        "rgb": [
+          197,
+          197,
+          106
+        ],
+        "hsl": [
+          60,
+          43,
+          59
+        ],
+        "cmyk": [
+          0,
+          0,
+          46,
+          23
+        ],
         "category": "green",
-        "tags": ["tea", "nature", "soft"],
+        "tags": [
+          "tea",
+          "nature",
+          "soft"
+        ],
         "origin": "Named after matcha (powdered green tea)"
       },
       "tokiwa": {
@@ -426,11 +816,28 @@
           "en": "Deep green like evergreen trees"
         },
         "hex": "#007B43",
-        "rgb": [0, 123, 67],
-        "hsl": [153, 100, 24],
-        "cmyk": [100, 0, 46, 52],
+        "rgb": [
+          0,
+          123,
+          67
+        ],
+        "hsl": [
+          153,
+          100,
+          24
+        ],
+        "cmyk": [
+          100,
+          0,
+          46,
+          52
+        ],
         "category": "green",
-        "tags": ["nature", "deep", "cool"],
+        "tags": [
+          "nature",
+          "deep",
+          "cool"
+        ],
         "origin": "Named after evergreen trees"
       },
       "aotake": {
@@ -444,11 +851,28 @@
           "en": "Greenish blue like fresh bamboo"
         },
         "hex": "#7EBEA5",
-        "rgb": [126, 190, 165],
-        "hsl": [157, 33, 62],
-        "cmyk": [34, 0, 13, 25],
+        "rgb": [
+          126,
+          190,
+          165
+        ],
+        "hsl": [
+          157,
+          33,
+          62
+        ],
+        "cmyk": [
+          34,
+          0,
+          13,
+          25
+        ],
         "category": "green",
-        "tags": ["bamboo", "nature", "cool"],
+        "tags": [
+          "bamboo",
+          "nature",
+          "cool"
+        ],
         "origin": "Named after green bamboo"
       },
       "hisui": {
@@ -462,11 +886,28 @@
           "en": "Deep green like jade"
         },
         "hex": "#38B48B",
-        "rgb": [56, 180, 139],
-        "hsl": [160, 53, 46],
-        "cmyk": [69, 0, 23, 29],
+        "rgb": [
+          56,
+          180,
+          139
+        ],
+        "hsl": [
+          160,
+          53,
+          46
+        ],
+        "cmyk": [
+          69,
+          0,
+          23,
+          29
+        ],
         "category": "green",
-        "tags": ["mineral", "deep", "cool"],
+        "tags": [
+          "mineral",
+          "deep",
+          "cool"
+        ],
         "origin": "Named after jade gemstone"
       },
       "rokushou": {
@@ -480,11 +921,28 @@
           "en": "Deep green like verdigris (copper rust)"
         },
         "hex": "#47885E",
-        "rgb": [71, 136, 94],
-        "hsl": [141, 31, 41],
-        "cmyk": [48, 0, 31, 47],
+        "rgb": [
+          71,
+          136,
+          94
+        ],
+        "hsl": [
+          141,
+          31,
+          41
+        ],
+        "cmyk": [
+          48,
+          0,
+          31,
+          47
+        ],
         "category": "green",
-        "tags": ["mineral", "deep", "cool"],
+        "tags": [
+          "mineral",
+          "deep",
+          "cool"
+        ],
         "origin": "Named after verdigris (copper patina)"
       },
       "yamabuki": {
@@ -498,11 +956,28 @@
           "en": "Vivid yellow like yamabuki (kerria) flowers"
         },
         "hex": "#F8B500",
-        "rgb": [248, 181, 0],
-        "hsl": [44, 100, 49],
-        "cmyk": [0, 27, 100, 3],
+        "rgb": [
+          248,
+          181,
+          0
+        ],
+        "hsl": [
+          44,
+          100,
+          49
+        ],
+        "cmyk": [
+          0,
+          27,
+          100,
+          3
+        ],
         "category": "yellow",
-        "tags": ["flower", "spring", "vivid"],
+        "tags": [
+          "flower",
+          "spring",
+          "vivid"
+        ],
         "origin": "Named after yamabuki (Japanese kerria) flowers"
       },
       "nanohana": {
@@ -516,11 +991,28 @@
           "en": "Bright yellow like rapeseed flowers"
         },
         "hex": "#FFEC47",
-        "rgb": [255, 236, 71],
-        "hsl": [54, 100, 64],
-        "cmyk": [0, 7, 72, 0],
+        "rgb": [
+          255,
+          236,
+          71
+        ],
+        "hsl": [
+          54,
+          100,
+          64
+        ],
+        "cmyk": [
+          0,
+          7,
+          72,
+          0
+        ],
         "category": "yellow",
-        "tags": ["flower", "spring", "bright"],
+        "tags": [
+          "flower",
+          "spring",
+          "bright"
+        ],
         "origin": "Named after rapeseed (nanohana) flowers"
       },
       "kariyasu": {
@@ -534,11 +1026,28 @@
           "en": "Pale yellow from kariyasu grass dye"
         },
         "hex": "#F5E56B",
-        "rgb": [245, 229, 107],
-        "hsl": [53, 86, 69],
-        "cmyk": [0, 7, 56, 4],
+        "rgb": [
+          245,
+          229,
+          107
+        ],
+        "hsl": [
+          53,
+          86,
+          69
+        ],
+        "cmyk": [
+          0,
+          7,
+          56,
+          4
+        ],
         "category": "yellow",
-        "tags": ["dye", "light", "warm"],
+        "tags": [
+          "dye",
+          "light",
+          "warm"
+        ],
         "origin": "Named after kariyasu grass used for dyeing"
       },
       "kihada": {
@@ -552,11 +1061,28 @@
           "en": "Vivid yellow from phellodendron bark dye"
         },
         "hex": "#FEF263",
-        "rgb": [254, 242, 99],
-        "hsl": [55, 99, 69],
-        "cmyk": [0, 5, 61, 0],
+        "rgb": [
+          254,
+          242,
+          99
+        ],
+        "hsl": [
+          55,
+          99,
+          69
+        ],
+        "cmyk": [
+          0,
+          5,
+          61,
+          0
+        ],
         "category": "yellow",
-        "tags": ["dye", "vivid", "warm"],
+        "tags": [
+          "dye",
+          "vivid",
+          "warm"
+        ],
         "origin": "Named after phellodendron (kihada) bark used for dyeing"
       },
       "ukon": {
@@ -570,11 +1096,28 @@
           "en": "Golden yellow from turmeric dye"
         },
         "hex": "#FCAC13",
-        "rgb": [252, 172, 19],
-        "hsl": [39, 98, 53],
-        "cmyk": [0, 32, 92, 1],
+        "rgb": [
+          252,
+          172,
+          19
+        ],
+        "hsl": [
+          39,
+          98,
+          53
+        ],
+        "cmyk": [
+          0,
+          32,
+          92,
+          1
+        ],
         "category": "orange",
-        "tags": ["dye", "warm", "golden"],
+        "tags": [
+          "dye",
+          "warm",
+          "golden"
+        ],
         "origin": "Named after turmeric (ukon)"
       },
       "kohaku": {
@@ -588,11 +1131,28 @@
           "en": "Deep golden like amber"
         },
         "hex": "#CA6924",
-        "rgb": [202, 105, 36],
-        "hsl": [25, 70, 47],
-        "cmyk": [0, 48, 82, 21],
+        "rgb": [
+          202,
+          105,
+          36
+        ],
+        "hsl": [
+          25,
+          70,
+          47
+        ],
+        "cmyk": [
+          0,
+          48,
+          82,
+          21
+        ],
         "category": "orange",
-        "tags": ["mineral", "warm", "golden"],
+        "tags": [
+          "mineral",
+          "warm",
+          "golden"
+        ],
         "origin": "Named after amber gemstone"
       },
       "kaki": {
@@ -606,11 +1166,28 @@
           "en": "Reddish orange like persimmon fruit"
         },
         "hex": "#ED6D3D",
-        "rgb": [237, 109, 61],
-        "hsl": [16, 83, 58],
-        "cmyk": [0, 54, 74, 7],
+        "rgb": [
+          237,
+          109,
+          61
+        ],
+        "hsl": [
+          16,
+          83,
+          58
+        ],
+        "cmyk": [
+          0,
+          54,
+          74,
+          7
+        ],
         "category": "orange",
-        "tags": ["fruit", "autumn", "warm"],
+        "tags": [
+          "fruit",
+          "autumn",
+          "warm"
+        ],
         "origin": "Named after persimmon (kaki) fruit"
       },
       "renga": {
@@ -624,11 +1201,27 @@
           "en": "Reddish brown like brick"
         },
         "hex": "#B55233",
-        "rgb": [181, 82, 51],
-        "hsl": [14, 56, 45],
-        "cmyk": [0, 55, 72, 29],
+        "rgb": [
+          181,
+          82,
+          51
+        ],
+        "hsl": [
+          14,
+          56,
+          45
+        ],
+        "cmyk": [
+          0,
+          55,
+          72,
+          29
+        ],
         "category": "brown",
-        "tags": ["architecture", "warm"],
+        "tags": [
+          "architecture",
+          "warm"
+        ],
         "origin": "Named after brick"
       },
       "kuri": {
@@ -642,11 +1235,28 @@
           "en": "Deep brown like chestnut"
         },
         "hex": "#762F07",
-        "rgb": [118, 47, 7],
-        "hsl": [22, 89, 25],
-        "cmyk": [0, 60, 94, 54],
+        "rgb": [
+          118,
+          47,
+          7
+        ],
+        "hsl": [
+          22,
+          89,
+          25
+        ],
+        "cmyk": [
+          0,
+          60,
+          94,
+          54
+        ],
         "category": "brown",
-        "tags": ["nature", "autumn", "dark"],
+        "tags": [
+          "nature",
+          "autumn",
+          "dark"
+        ],
         "origin": "Named after chestnut (kuri)"
       },
       "cha": {
@@ -660,11 +1270,28 @@
           "en": "Brown like tea"
         },
         "hex": "#965042",
-        "rgb": [150, 80, 66],
-        "hsl": [10, 39, 42],
-        "cmyk": [0, 47, 56, 41],
+        "rgb": [
+          150,
+          80,
+          66
+        ],
+        "hsl": [
+          10,
+          39,
+          42
+        ],
+        "cmyk": [
+          0,
+          47,
+          56,
+          41
+        ],
         "category": "brown",
-        "tags": ["tea", "nature", "warm"],
+        "tags": [
+          "tea",
+          "nature",
+          "warm"
+        ],
         "origin": "Named after tea (cha)"
       },
       "kogecha": {
@@ -678,11 +1305,27 @@
           "en": "Dark brown like burned tea"
         },
         "hex": "#6F4B3E",
-        "rgb": [111, 75, 62],
-        "hsl": [16, 28, 34],
-        "cmyk": [0, 32, 44, 56],
+        "rgb": [
+          111,
+          75,
+          62
+        ],
+        "hsl": [
+          16,
+          28,
+          34
+        ],
+        "cmyk": [
+          0,
+          32,
+          44,
+          56
+        ],
         "category": "brown",
-        "tags": ["dark", "warm"],
+        "tags": [
+          "dark",
+          "warm"
+        ],
         "origin": "Dark shade of tea brown"
       },
       "hiwada": {
@@ -696,11 +1339,27 @@
           "en": "Purplish brown like cypress bark"
         },
         "hex": "#7A4171",
-        "rgb": [122, 65, 113],
-        "hsl": [309, 30, 37],
-        "cmyk": [0, 47, 7, 52],
+        "rgb": [
+          122,
+          65,
+          113
+        ],
+        "hsl": [
+          309,
+          30,
+          37
+        ],
+        "cmyk": [
+          0,
+          47,
+          7,
+          52
+        ],
         "category": "purple",
-        "tags": ["nature", "architecture"],
+        "tags": [
+          "nature",
+          "architecture"
+        ],
         "origin": "Named after cypress (hinoki) bark used for traditional roofing"
       },
       "fuji": {
@@ -714,11 +1373,28 @@
           "en": "Pale purple like wisteria flowers"
         },
         "hex": "#A59ACA",
-        "rgb": [165, 154, 202],
-        "hsl": [254, 31, 70],
-        "cmyk": [18, 24, 0, 21],
+        "rgb": [
+          165,
+          154,
+          202
+        ],
+        "hsl": [
+          254,
+          31,
+          70
+        ],
+        "cmyk": [
+          18,
+          24,
+          0,
+          21
+        ],
         "category": "purple",
-        "tags": ["flower", "spring", "light"],
+        "tags": [
+          "flower",
+          "spring",
+          "light"
+        ],
         "origin": "Named after wisteria (fuji) flowers"
       },
       "sumire": {
@@ -732,11 +1408,28 @@
           "en": "Deep purple like violet flowers"
         },
         "hex": "#7058A3",
-        "rgb": [112, 88, 163],
-        "hsl": [259, 30, 49],
-        "cmyk": [31, 46, 0, 36],
+        "rgb": [
+          112,
+          88,
+          163
+        ],
+        "hsl": [
+          259,
+          30,
+          49
+        ],
+        "cmyk": [
+          31,
+          46,
+          0,
+          36
+        ],
         "category": "purple",
-        "tags": ["flower", "spring", "deep"],
+        "tags": [
+          "flower",
+          "spring",
+          "deep"
+        ],
         "origin": "Named after violet (sumire) flowers"
       },
       "edomurasaki": {
@@ -750,11 +1443,27 @@
           "en": "Traditional purple of Edo period"
         },
         "hex": "#745399",
-        "rgb": [116, 83, 153],
-        "hsl": [268, 30, 46],
-        "cmyk": [24, 46, 0, 40],
+        "rgb": [
+          116,
+          83,
+          153
+        ],
+        "hsl": [
+          268,
+          30,
+          46
+        ],
+        "cmyk": [
+          24,
+          46,
+          0,
+          40
+        ],
         "category": "purple",
-        "tags": ["traditional", "dye"],
+        "tags": [
+          "traditional",
+          "dye"
+        ],
         "origin": "Purple color popular in Edo (old Tokyo)"
       },
       "kyomurasaki": {
@@ -768,11 +1477,27 @@
           "en": "Traditional purple of Kyoto"
         },
         "hex": "#9D5B8B",
-        "rgb": [157, 91, 139],
-        "hsl": [316, 27, 49],
-        "cmyk": [0, 42, 11, 38],
+        "rgb": [
+          157,
+          91,
+          139
+        ],
+        "hsl": [
+          316,
+          27,
+          49
+        ],
+        "cmyk": [
+          0,
+          42,
+          11,
+          38
+        ],
         "category": "purple",
-        "tags": ["traditional", "dye"],
+        "tags": [
+          "traditional",
+          "dye"
+        ],
         "origin": "Purple color popular in Kyoto"
       },
       "kodaimurasaki": {
@@ -786,11 +1511,28 @@
           "en": "Ancient noble purple"
         },
         "hex": "#895B8A",
-        "rgb": [137, 91, 138],
-        "hsl": [299, 21, 45],
-        "cmyk": [1, 34, 0, 46],
+        "rgb": [
+          137,
+          91,
+          138
+        ],
+        "hsl": [
+          299,
+          21,
+          45
+        ],
+        "cmyk": [
+          1,
+          34,
+          0,
+          46
+        ],
         "category": "purple",
-        "tags": ["traditional", "noble", "dye"],
+        "tags": [
+          "traditional",
+          "noble",
+          "dye"
+        ],
         "origin": "Ancient purple color reserved for nobility"
       },
       "gofun": {
@@ -804,11 +1546,28 @@
           "en": "White pigment made from seashells"
         },
         "hex": "#FFFFFC",
-        "rgb": [255, 255, 252],
-        "hsl": [60, 100, 99],
-        "cmyk": [0, 0, 1, 0],
+        "rgb": [
+          255,
+          255,
+          252
+        ],
+        "hsl": [
+          60,
+          100,
+          99
+        ],
+        "cmyk": [
+          0,
+          0,
+          1,
+          0
+        ],
         "category": "white",
-        "tags": ["pigment", "light", "traditional"],
+        "tags": [
+          "pigment",
+          "light",
+          "traditional"
+        ],
         "origin": "Traditional white pigment made from crushed seashells"
       },
       "zouge": {
@@ -822,11 +1581,27 @@
           "en": "Off-white like ivory"
         },
         "hex": "#F8F4E6",
-        "rgb": [248, 244, 230],
-        "hsl": [47, 56, 94],
-        "cmyk": [0, 2, 7, 3],
+        "rgb": [
+          248,
+          244,
+          230
+        ],
+        "hsl": [
+          47,
+          56,
+          94
+        ],
+        "cmyk": [
+          0,
+          2,
+          7,
+          3
+        ],
         "category": "white",
-        "tags": ["light", "warm"],
+        "tags": [
+          "light",
+          "warm"
+        ],
         "origin": "Named after elephant ivory"
       },
       "kinari": {
@@ -840,11 +1615,28 @@
           "en": "Pale yellowish white like unbleached fabric"
         },
         "hex": "#FFFFEB",
-        "rgb": [255, 255, 235],
-        "hsl": [60, 100, 96],
-        "cmyk": [0, 0, 8, 0],
+        "rgb": [
+          255,
+          255,
+          235
+        ],
+        "hsl": [
+          60,
+          100,
+          96
+        ],
+        "cmyk": [
+          0,
+          0,
+          8,
+          0
+        ],
         "category": "white",
-        "tags": ["fabric", "light", "natural"],
+        "tags": [
+          "fabric",
+          "light",
+          "natural"
+        ],
         "origin": "Named after unbleached, natural fabric"
       },
       "nezumi": {
@@ -858,11 +1650,27 @@
           "en": "Gray like a mouse"
         },
         "hex": "#7D7D7D",
-        "rgb": [125, 125, 125],
-        "hsl": [0, 0, 49],
-        "cmyk": [0, 0, 0, 51],
+        "rgb": [
+          125,
+          125,
+          125
+        ],
+        "hsl": [
+          0,
+          0,
+          49
+        ],
+        "cmyk": [
+          0,
+          0,
+          0,
+          51
+        ],
         "category": "gray",
-        "tags": ["neutral", "animal"],
+        "tags": [
+          "neutral",
+          "animal"
+        ],
         "origin": "Named after mouse (nezumi) color"
       },
       "sumi": {
@@ -876,11 +1684,28 @@
           "en": "Deep black like ink"
         },
         "hex": "#1C1C1C",
-        "rgb": [28, 28, 28],
-        "hsl": [0, 0, 11],
-        "cmyk": [0, 0, 0, 89],
+        "rgb": [
+          28,
+          28,
+          28
+        ],
+        "hsl": [
+          0,
+          0,
+          11
+        ],
+        "cmyk": [
+          0,
+          0,
+          0,
+          89
+        ],
         "category": "black",
-        "tags": ["dark", "ink", "traditional"],
+        "tags": [
+          "dark",
+          "ink",
+          "traditional"
+        ],
         "origin": "Named after Japanese ink (sumi)"
       },
       "tsutsuji": {
@@ -894,11 +1719,28 @@
           "en": "Vivid reddish purple like azalea flowers"
         },
         "hex": "#E95464",
-        "rgb": [233, 84, 100],
-        "hsl": [354, 77, 62],
-        "cmyk": [0, 64, 57, 9],
+        "rgb": [
+          233,
+          84,
+          100
+        ],
+        "hsl": [
+          354,
+          77,
+          62
+        ],
+        "cmyk": [
+          0,
+          64,
+          57,
+          9
+        ],
         "category": "pink",
-        "tags": ["flower", "spring", "vivid"],
+        "tags": [
+          "flower",
+          "spring",
+          "vivid"
+        ],
         "origin": "Named after azalea (tsutsuji) flowers"
       },
       "botan": {
@@ -912,11 +1754,28 @@
           "en": "Deep pink like peony flowers"
         },
         "hex": "#E7609E",
-        "rgb": [231, 96, 158],
-        "hsl": [332, 73, 64],
-        "cmyk": [0, 58, 32, 9],
+        "rgb": [
+          231,
+          96,
+          158
+        ],
+        "hsl": [
+          332,
+          73,
+          64
+        ],
+        "cmyk": [
+          0,
+          58,
+          32,
+          9
+        ],
         "category": "pink",
-        "tags": ["flower", "spring", "vivid"],
+        "tags": [
+          "flower",
+          "spring",
+          "vivid"
+        ],
         "origin": "Named after peony (botan) flowers"
       },
       "momohana": {
@@ -930,11 +1789,28 @@
           "en": "Pale crimson like peach blossoms"
         },
         "hex": "#E198B4",
-        "rgb": [225, 152, 180],
-        "hsl": [337, 55, 74],
-        "cmyk": [0, 32, 20, 12],
+        "rgb": [
+          225,
+          152,
+          180
+        ],
+        "hsl": [
+          337,
+          55,
+          74
+        ],
+        "cmyk": [
+          0,
+          32,
+          20,
+          12
+        ],
         "category": "pink",
-        "tags": ["flower", "spring", "light"],
+        "tags": [
+          "flower",
+          "spring",
+          "light"
+        ],
         "origin": "Named after peach blossoms"
       },
       "karakurenai": {
@@ -948,11 +1824,28 @@
           "en": "Deep vivid crimson"
         },
         "hex": "#C91F37",
-        "rgb": [201, 31, 55],
-        "hsl": [352, 73, 45],
-        "cmyk": [0, 85, 73, 21],
+        "rgb": [
+          201,
+          31,
+          55
+        ],
+        "hsl": [
+          352,
+          73,
+          45
+        ],
+        "cmyk": [
+          0,
+          85,
+          73,
+          21
+        ],
         "category": "red",
-        "tags": ["vivid", "deep", "warm"],
+        "tags": [
+          "vivid",
+          "deep",
+          "warm"
+        ],
         "origin": "Deep crimson from Chinese dye techniques"
       },
       "choshun": {
@@ -966,11 +1859,27 @@
           "en": "Pale crimson like vinca flowers"
         },
         "hex": "#BF6766",
-        "rgb": [191, 103, 102],
-        "hsl": [1, 41, 57],
-        "cmyk": [0, 46, 47, 25],
+        "rgb": [
+          191,
+          103,
+          102
+        ],
+        "hsl": [
+          1,
+          41,
+          57
+        ],
+        "cmyk": [
+          0,
+          46,
+          47,
+          25
+        ],
         "category": "red",
-        "tags": ["flower", "warm"],
+        "tags": [
+          "flower",
+          "warm"
+        ],
         "origin": "Named after vinca (choshun) flowers"
       },
       "imayo": {
@@ -984,11 +1893,27 @@
           "en": "Fashionable reddish purple"
         },
         "hex": "#D05A6E",
-        "rgb": [208, 90, 110],
-        "hsl": [350, 56, 58],
-        "cmyk": [0, 57, 47, 18],
+        "rgb": [
+          208,
+          90,
+          110
+        ],
+        "hsl": [
+          350,
+          56,
+          58
+        ],
+        "cmyk": [
+          0,
+          57,
+          47,
+          18
+        ],
         "category": "pink",
-        "tags": ["fashionable", "warm"],
+        "tags": [
+          "fashionable",
+          "warm"
+        ],
         "origin": "Named after contemporary fashion color"
       },
       "nando": {
@@ -1002,11 +1927,27 @@
           "en": "Deep blue-green like a dark storage room"
         },
         "hex": "#00708E",
-        "rgb": [0, 112, 142],
-        "hsl": [193, 100, 28],
-        "cmyk": [100, 21, 0, 44],
+        "rgb": [
+          0,
+          112,
+          142
+        ],
+        "hsl": [
+          193,
+          100,
+          28
+        ],
+        "cmyk": [
+          100,
+          21,
+          0,
+          44
+        ],
         "category": "blue",
-        "tags": ["deep", "cool"],
+        "tags": [
+          "deep",
+          "cool"
+        ],
         "origin": "Named after storage room (nando) darkness"
       },
       "shinbashi": {
@@ -1020,11 +1961,27 @@
           "en": "Bright blue-green"
         },
         "hex": "#59B9C6",
-        "rgb": [89, 185, 198],
-        "hsl": [187, 48, 56],
-        "cmyk": [55, 7, 0, 22],
+        "rgb": [
+          89,
+          185,
+          198
+        ],
+        "hsl": [
+          187,
+          48,
+          56
+        ],
+        "cmyk": [
+          55,
+          7,
+          0,
+          22
+        ],
         "category": "blue",
-        "tags": ["bright", "cool"],
+        "tags": [
+          "bright",
+          "cool"
+        ],
         "origin": "Named after Shinbashi area in Tokyo"
       },
       "tsuyukusa": {
@@ -1038,11 +1995,28 @@
           "en": "Vivid blue like dayflower"
         },
         "hex": "#38A1DB",
-        "rgb": [56, 161, 219],
-        "hsl": [201, 69, 54],
-        "cmyk": [74, 26, 0, 14],
+        "rgb": [
+          56,
+          161,
+          219
+        ],
+        "hsl": [
+          201,
+          69,
+          54
+        ],
+        "cmyk": [
+          74,
+          26,
+          0,
+          14
+        ],
         "category": "blue",
-        "tags": ["flower", "vivid", "cool"],
+        "tags": [
+          "flower",
+          "vivid",
+          "cool"
+        ],
         "origin": "Named after dayflower (tsuyukusa)"
       },
       "hanairo": {
@@ -1056,11 +2030,28 @@
           "en": "Bright blue from indigo dyeing"
         },
         "hex": "#4A69BD",
-        "rgb": [74, 105, 189],
-        "hsl": [224, 46, 52],
-        "cmyk": [61, 44, 0, 26],
+        "rgb": [
+          74,
+          105,
+          189
+        ],
+        "hsl": [
+          224,
+          46,
+          52
+        ],
+        "cmyk": [
+          61,
+          44,
+          0,
+          26
+        ],
         "category": "blue",
-        "tags": ["dye", "bright", "cool"],
+        "tags": [
+          "dye",
+          "bright",
+          "cool"
+        ],
         "origin": "Bright blue shade of indigo dyeing"
       },
       "chigusa": {
@@ -1074,11 +2065,28 @@
           "en": "Pale blue like many grasses"
         },
         "hex": "#8FC5E2",
-        "rgb": [143, 197, 226],
-        "hsl": [201, 59, 72],
-        "cmyk": [37, 13, 0, 11],
+        "rgb": [
+          143,
+          197,
+          226
+        ],
+        "hsl": [
+          201,
+          59,
+          72
+        ],
+        "cmyk": [
+          37,
+          13,
+          0,
+          11
+        ],
         "category": "blue",
-        "tags": ["nature", "light", "cool"],
+        "tags": [
+          "nature",
+          "light",
+          "cool"
+        ],
         "origin": "Named after many grasses (chigusa)"
       },
       "wakatake": {
@@ -1092,11 +2100,28 @@
           "en": "Bright green like young bamboo"
         },
         "hex": "#68BE8D",
-        "rgb": [104, 190, 141],
-        "hsl": [146, 41, 58],
-        "cmyk": [45, 0, 26, 25],
+        "rgb": [
+          104,
+          190,
+          141
+        ],
+        "hsl": [
+          146,
+          41,
+          58
+        ],
+        "cmyk": [
+          45,
+          0,
+          26,
+          25
+        ],
         "category": "green",
-        "tags": ["bamboo", "spring", "fresh"],
+        "tags": [
+          "bamboo",
+          "spring",
+          "fresh"
+        ],
         "origin": "Named after young bamboo (wakatake)"
       },
       "yanagi": {
@@ -1110,11 +2135,28 @@
           "en": "Yellow-green like willow leaves"
         },
         "hex": "#A8C97F",
-        "rgb": [168, 201, 127],
-        "hsl": [87, 41, 64],
-        "cmyk": [16, 0, 37, 21],
+        "rgb": [
+          168,
+          201,
+          127
+        ],
+        "hsl": [
+          87,
+          41,
+          64
+        ],
+        "cmyk": [
+          16,
+          0,
+          37,
+          21
+        ],
         "category": "green",
-        "tags": ["nature", "spring", "soft"],
+        "tags": [
+          "nature",
+          "spring",
+          "soft"
+        ],
         "origin": "Named after willow (yanagi) leaves"
       },
       "koke": {
@@ -1128,11 +2170,28 @@
           "en": "Dark yellow-green like moss"
         },
         "hex": "#69821B",
-        "rgb": [105, 130, 27],
-        "hsl": [75, 66, 31],
-        "cmyk": [19, 0, 79, 49],
+        "rgb": [
+          105,
+          130,
+          27
+        ],
+        "hsl": [
+          75,
+          66,
+          31
+        ],
+        "cmyk": [
+          19,
+          0,
+          79,
+          49
+        ],
         "category": "green",
-        "tags": ["nature", "dark", "muted"],
+        "tags": [
+          "nature",
+          "dark",
+          "muted"
+        ],
         "origin": "Named after moss (koke)"
       },
       "seiji": {
@@ -1146,11 +2205,28 @@
           "en": "Pale blue-green like celadon"
         },
         "hex": "#7EBEA5",
-        "rgb": [126, 190, 165],
-        "hsl": [157, 33, 62],
-        "cmyk": [34, 0, 13, 25],
+        "rgb": [
+          126,
+          190,
+          165
+        ],
+        "hsl": [
+          157,
+          33,
+          62
+        ],
+        "cmyk": [
+          34,
+          0,
+          13,
+          25
+        ],
         "category": "green",
-        "tags": ["ceramic", "light", "cool"],
+        "tags": [
+          "ceramic",
+          "light",
+          "cool"
+        ],
         "origin": "Named after celadon (seiji) ceramic"
       },
       "hiwa": {
@@ -1164,11 +2240,28 @@
           "en": "Yellow-green like siskin bird"
         },
         "hex": "#D7E800",
-        "rgb": [215, 232, 0],
-        "hsl": [64, 100, 45],
-        "cmyk": [7, 0, 100, 9],
+        "rgb": [
+          215,
+          232,
+          0
+        ],
+        "hsl": [
+          64,
+          100,
+          45
+        ],
+        "cmyk": [
+          7,
+          0,
+          100,
+          9
+        ],
         "category": "green",
-        "tags": ["bird", "vivid", "bright"],
+        "tags": [
+          "bird",
+          "vivid",
+          "bright"
+        ],
         "origin": "Named after siskin (hiwa) bird"
       },
       "uraha": {
@@ -1182,11 +2275,28 @@
           "en": "Pale green like underside of leaves"
         },
         "hex": "#C1D8AC",
-        "rgb": [193, 216, 172],
-        "hsl": [91, 36, 76],
-        "cmyk": [11, 0, 20, 15],
+        "rgb": [
+          193,
+          216,
+          172
+        ],
+        "hsl": [
+          91,
+          36,
+          76
+        ],
+        "cmyk": [
+          11,
+          0,
+          20,
+          15
+        ],
         "category": "green",
-        "tags": ["nature", "light", "soft"],
+        "tags": [
+          "nature",
+          "light",
+          "soft"
+        ],
         "origin": "Named after underside of leaves (uraha)"
       },
       "midori": {
@@ -1200,11 +2310,28 @@
           "en": "Vivid green like fresh foliage"
         },
         "hex": "#3CB371",
-        "rgb": [60, 179, 113],
-        "hsl": [147, 50, 47],
-        "cmyk": [66, 0, 37, 30],
+        "rgb": [
+          60,
+          179,
+          113
+        ],
+        "hsl": [
+          147,
+          50,
+          47
+        ],
+        "cmyk": [
+          66,
+          0,
+          37,
+          30
+        ],
         "category": "green",
-        "tags": ["nature", "vivid", "fresh"],
+        "tags": [
+          "nature",
+          "vivid",
+          "fresh"
+        ],
         "origin": "Standard Japanese word for green"
       },
       "kouji": {
@@ -1218,11 +2345,28 @@
           "en": "Orange like citrus fruit"
         },
         "hex": "#F6AD49",
-        "rgb": [246, 173, 73],
-        "hsl": [35, 90, 63],
-        "cmyk": [0, 30, 70, 4],
+        "rgb": [
+          246,
+          173,
+          73
+        ],
+        "hsl": [
+          35,
+          90,
+          63
+        ],
+        "cmyk": [
+          0,
+          30,
+          70,
+          4
+        ],
         "category": "orange",
-        "tags": ["fruit", "warm", "vivid"],
+        "tags": [
+          "fruit",
+          "warm",
+          "vivid"
+        ],
         "origin": "Named after citrus (kouji) fruit"
       },
       "mikan": {
@@ -1236,11 +2380,28 @@
           "en": "Vivid orange like mandarin"
         },
         "hex": "#F08300",
-        "rgb": [240, 131, 0],
-        "hsl": [33, 100, 47],
-        "cmyk": [0, 45, 100, 6],
+        "rgb": [
+          240,
+          131,
+          0
+        ],
+        "hsl": [
+          33,
+          100,
+          47
+        ],
+        "cmyk": [
+          0,
+          45,
+          100,
+          6
+        ],
         "category": "orange",
-        "tags": ["fruit", "vivid", "warm"],
+        "tags": [
+          "fruit",
+          "vivid",
+          "warm"
+        ],
         "origin": "Named after mandarin (mikan) orange"
       },
       "kogane": {
@@ -1254,11 +2415,28 @@
           "en": "Brilliant yellow like gold"
         },
         "hex": "#E6B422",
-        "rgb": [230, 180, 34],
-        "hsl": [45, 79, 52],
-        "cmyk": [0, 22, 85, 10],
+        "rgb": [
+          230,
+          180,
+          34
+        ],
+        "hsl": [
+          45,
+          79,
+          52
+        ],
+        "cmyk": [
+          0,
+          22,
+          85,
+          10
+        ],
         "category": "yellow",
-        "tags": ["metal", "brilliant", "warm"],
+        "tags": [
+          "metal",
+          "brilliant",
+          "warm"
+        ],
         "origin": "Named after gold (kogane)"
       },
       "tamago": {
@@ -1272,11 +2450,28 @@
           "en": "Pale yellow like egg yolk"
         },
         "hex": "#FCD575",
-        "rgb": [252, 213, 117],
-        "hsl": [43, 95, 72],
-        "cmyk": [0, 15, 54, 1],
+        "rgb": [
+          252,
+          213,
+          117
+        ],
+        "hsl": [
+          43,
+          95,
+          72
+        ],
+        "cmyk": [
+          0,
+          15,
+          54,
+          1
+        ],
         "category": "yellow",
-        "tags": ["food", "light", "warm"],
+        "tags": [
+          "food",
+          "light",
+          "warm"
+        ],
         "origin": "Named after egg (tamago) yolk"
       },
       "kuchinashi": {
@@ -1290,11 +2485,28 @@
           "en": "Yellow like gardenia fruit"
         },
         "hex": "#FBCA4D",
-        "rgb": [251, 202, 77],
-        "hsl": [43, 96, 64],
-        "cmyk": [0, 20, 69, 2],
+        "rgb": [
+          251,
+          202,
+          77
+        ],
+        "hsl": [
+          43,
+          96,
+          64
+        ],
+        "cmyk": [
+          0,
+          20,
+          69,
+          2
+        ],
         "category": "yellow",
-        "tags": ["flower", "dye", "warm"],
+        "tags": [
+          "flower",
+          "dye",
+          "warm"
+        ],
         "origin": "Named after gardenia (kuchinashi) fruit used for dyeing"
       },
       "kuchiba": {
@@ -1308,11 +2520,28 @@
           "en": "Yellowish brown like dead leaves"
         },
         "hex": "#896C39",
-        "rgb": [137, 108, 57],
-        "hsl": [38, 41, 38],
-        "cmyk": [0, 21, 58, 46],
+        "rgb": [
+          137,
+          108,
+          57
+        ],
+        "hsl": [
+          38,
+          41,
+          38
+        ],
+        "cmyk": [
+          0,
+          21,
+          58,
+          46
+        ],
         "category": "brown",
-        "tags": ["autumn", "nature", "muted"],
+        "tags": [
+          "autumn",
+          "nature",
+          "muted"
+        ],
         "origin": "Named after dead leaves (kuchiba)"
       },
       "karashi": {
@@ -1326,11 +2555,27 @@
           "en": "Yellowish brown like mustard"
         },
         "hex": "#CFBB41",
-        "rgb": [207, 187, 65],
-        "hsl": [52, 59, 53],
-        "cmyk": [0, 10, 69, 19],
+        "rgb": [
+          207,
+          187,
+          65
+        ],
+        "hsl": [
+          52,
+          59,
+          53
+        ],
+        "cmyk": [
+          0,
+          10,
+          69,
+          19
+        ],
         "category": "yellow",
-        "tags": ["food", "warm"],
+        "tags": [
+          "food",
+          "warm"
+        ],
         "origin": "Named after mustard (karashi)"
       },
       "wara": {
@@ -1344,11 +2589,28 @@
           "en": "Pale yellow like straw"
         },
         "hex": "#D9CD90",
-        "rgb": [217, 205, 144],
-        "hsl": [50, 48, 71],
-        "cmyk": [0, 6, 34, 15],
+        "rgb": [
+          217,
+          205,
+          144
+        ],
+        "hsl": [
+          50,
+          48,
+          71
+        ],
+        "cmyk": [
+          0,
+          6,
+          34,
+          15
+        ],
         "category": "yellow",
-        "tags": ["nature", "light", "warm"],
+        "tags": [
+          "nature",
+          "light",
+          "warm"
+        ],
         "origin": "Named after straw (wara)"
       },
       "torinoko": {
@@ -1362,11 +2624,28 @@
           "en": "Pale yellow like bird egg"
         },
         "hex": "#FFF1CF",
-        "rgb": [255, 241, 207],
-        "hsl": [43, 100, 91],
-        "cmyk": [0, 5, 19, 0],
+        "rgb": [
+          255,
+          241,
+          207
+        ],
+        "hsl": [
+          43,
+          100,
+          91
+        ],
+        "cmyk": [
+          0,
+          5,
+          19,
+          0
+        ],
         "category": "yellow",
-        "tags": ["light", "soft", "warm"],
+        "tags": [
+          "light",
+          "soft",
+          "warm"
+        ],
         "origin": "Named after bird (tori) egg color"
       },
       "shakudo": {
@@ -1380,11 +2659,28 @@
           "en": "Reddish brown like shakudo alloy"
         },
         "hex": "#8C4736",
-        "rgb": [140, 71, 54],
-        "hsl": [12, 44, 38],
-        "cmyk": [0, 49, 61, 45],
+        "rgb": [
+          140,
+          71,
+          54
+        ],
+        "hsl": [
+          12,
+          44,
+          38
+        ],
+        "cmyk": [
+          0,
+          49,
+          61,
+          45
+        ],
         "category": "brown",
-        "tags": ["metal", "dark", "warm"],
+        "tags": [
+          "metal",
+          "dark",
+          "warm"
+        ],
         "origin": "Named after shakudo (copper-gold alloy)"
       },
       "taisha": {
@@ -1398,11 +2694,28 @@
           "en": "Reddish brown like ocher"
         },
         "hex": "#A0674B",
-        "rgb": [160, 103, 75],
-        "hsl": [20, 36, 46],
-        "cmyk": [0, 36, 53, 37],
+        "rgb": [
+          160,
+          103,
+          75
+        ],
+        "hsl": [
+          20,
+          36,
+          46
+        ],
+        "cmyk": [
+          0,
+          36,
+          53,
+          37
+        ],
         "category": "brown",
-        "tags": ["mineral", "earth", "warm"],
+        "tags": [
+          "mineral",
+          "earth",
+          "warm"
+        ],
         "origin": "Named after ocher (taisha) pigment"
       },
       "tsuchi": {
@@ -1416,11 +2729,28 @@
           "en": "Brown like soil"
         },
         "hex": "#BC9F77",
-        "rgb": [188, 159, 119],
-        "hsl": [35, 34, 60],
-        "cmyk": [0, 15, 37, 26],
+        "rgb": [
+          188,
+          159,
+          119
+        ],
+        "hsl": [
+          35,
+          34,
+          60
+        ],
+        "cmyk": [
+          0,
+          15,
+          37,
+          26
+        ],
         "category": "brown",
-        "tags": ["earth", "nature", "neutral"],
+        "tags": [
+          "earth",
+          "nature",
+          "neutral"
+        ],
         "origin": "Named after soil (tsuchi)"
       },
       "rakuda": {
@@ -1434,11 +2764,27 @@
           "en": "Pale brown like camel"
         },
         "hex": "#BF794E",
-        "rgb": [191, 121, 78],
-        "hsl": [23, 47, 53],
-        "cmyk": [0, 37, 59, 25],
+        "rgb": [
+          191,
+          121,
+          78
+        ],
+        "hsl": [
+          23,
+          47,
+          53
+        ],
+        "cmyk": [
+          0,
+          37,
+          59,
+          25
+        ],
         "category": "brown",
-        "tags": ["animal", "warm"],
+        "tags": [
+          "animal",
+          "warm"
+        ],
         "origin": "Named after camel (rakuda) color"
       },
       "kaba": {
@@ -1452,11 +2798,28 @@
           "en": "Reddish brown like birch tree"
         },
         "hex": "#B35C37",
-        "rgb": [179, 92, 55],
-        "hsl": [18, 53, 46],
-        "cmyk": [0, 49, 69, 30],
+        "rgb": [
+          179,
+          92,
+          55
+        ],
+        "hsl": [
+          18,
+          53,
+          46
+        ],
+        "cmyk": [
+          0,
+          49,
+          69,
+          30
+        ],
         "category": "brown",
-        "tags": ["nature", "wood", "warm"],
+        "tags": [
+          "nature",
+          "wood",
+          "warm"
+        ],
         "origin": "Named after birch (kaba) tree"
       },
       "kurumi": {
@@ -1470,11 +2833,28 @@
           "en": "Deep brown like walnut"
         },
         "hex": "#8D6449",
-        "rgb": [141, 100, 73],
-        "hsl": [24, 32, 42],
-        "cmyk": [0, 29, 48, 45],
+        "rgb": [
+          141,
+          100,
+          73
+        ],
+        "hsl": [
+          24,
+          32,
+          42
+        ],
+        "cmyk": [
+          0,
+          29,
+          48,
+          45
+        ],
         "category": "brown",
-        "tags": ["nature", "dark", "warm"],
+        "tags": [
+          "nature",
+          "dark",
+          "warm"
+        ],
         "origin": "Named after walnut (kurumi)"
       },
       "biwa": {
@@ -1488,11 +2868,27 @@
           "en": "Orange brown like loquat"
         },
         "hex": "#D3704B",
-        "rgb": [211, 112, 75],
-        "hsl": [16, 61, 56],
-        "cmyk": [0, 47, 64, 17],
+        "rgb": [
+          211,
+          112,
+          75
+        ],
+        "hsl": [
+          16,
+          61,
+          56
+        ],
+        "cmyk": [
+          0,
+          47,
+          64,
+          17
+        ],
         "category": "orange",
-        "tags": ["fruit", "warm"],
+        "tags": [
+          "fruit",
+          "warm"
+        ],
         "origin": "Named after loquat (biwa) fruit"
       },
       "kitsurubami": {
@@ -1506,11 +2902,28 @@
           "en": "Yellowish brown dyed with acorn"
         },
         "hex": "#B98C46",
-        "rgb": [185, 140, 70],
-        "hsl": [37, 45, 50],
-        "cmyk": [0, 24, 62, 27],
+        "rgb": [
+          185,
+          140,
+          70
+        ],
+        "hsl": [
+          37,
+          45,
+          50
+        ],
+        "cmyk": [
+          0,
+          24,
+          62,
+          27
+        ],
         "category": "brown",
-        "tags": ["dye", "nature", "warm"],
+        "tags": [
+          "dye",
+          "nature",
+          "warm"
+        ],
         "origin": "Named after acorn (tsurubami) dye"
       },
       "shu": {
@@ -1524,11 +2937,28 @@
           "en": "Vivid vermilion red"
         },
         "hex": "#EB6238",
-        "rgb": [235, 98, 56],
-        "hsl": [14, 82, 57],
-        "cmyk": [0, 58, 76, 8],
+        "rgb": [
+          235,
+          98,
+          56
+        ],
+        "hsl": [
+          14,
+          82,
+          57
+        ],
+        "cmyk": [
+          0,
+          58,
+          76,
+          8
+        ],
         "category": "orange",
-        "tags": ["vivid", "traditional", "warm"],
+        "tags": [
+          "vivid",
+          "traditional",
+          "warm"
+        ],
         "origin": "Named after vermilion (shu) pigment"
       },
       "shobu": {
@@ -1542,11 +2972,27 @@
           "en": "Purple like iris flowers"
         },
         "hex": "#674598",
-        "rgb": [103, 69, 152],
-        "hsl": [265, 38, 43],
-        "cmyk": [32, 55, 0, 40],
+        "rgb": [
+          103,
+          69,
+          152
+        ],
+        "hsl": [
+          265,
+          38,
+          43
+        ],
+        "cmyk": [
+          32,
+          55,
+          0,
+          40
+        ],
         "category": "purple",
-        "tags": ["flower", "deep"],
+        "tags": [
+          "flower",
+          "deep"
+        ],
         "origin": "Named after iris (shobu) flowers"
       },
       "shion": {
@@ -1560,11 +3006,27 @@
           "en": "Pale purple like aster flowers"
         },
         "hex": "#9E7FAF",
-        "rgb": [158, 127, 175],
-        "hsl": [279, 23, 59],
-        "cmyk": [10, 27, 0, 31],
+        "rgb": [
+          158,
+          127,
+          175
+        ],
+        "hsl": [
+          279,
+          23,
+          59
+        ],
+        "cmyk": [
+          10,
+          27,
+          0,
+          31
+        ],
         "category": "purple",
-        "tags": ["flower", "light"],
+        "tags": [
+          "flower",
+          "light"
+        ],
         "origin": "Named after aster (shion) flowers"
       },
       "fujimurasaki": {
@@ -1578,11 +3040,27 @@
           "en": "Deep purple like wisteria"
         },
         "hex": "#8B7FA6",
-        "rgb": [139, 127, 166],
-        "hsl": [258, 18, 57],
-        "cmyk": [16, 23, 0, 35],
+        "rgb": [
+          139,
+          127,
+          166
+        ],
+        "hsl": [
+          258,
+          18,
+          57
+        ],
+        "cmyk": [
+          16,
+          23,
+          0,
+          35
+        ],
         "category": "purple",
-        "tags": ["flower", "deep"],
+        "tags": [
+          "flower",
+          "deep"
+        ],
         "origin": "Deep shade of wisteria purple"
       },
       "kikyo": {
@@ -1596,11 +3074,27 @@
           "en": "Purple like bellflower"
         },
         "hex": "#5D3F89",
-        "rgb": [93, 63, 137],
-        "hsl": [264, 37, 39],
-        "cmyk": [32, 54, 0, 46],
+        "rgb": [
+          93,
+          63,
+          137
+        ],
+        "hsl": [
+          264,
+          37,
+          39
+        ],
+        "cmyk": [
+          32,
+          54,
+          0,
+          46
+        ],
         "category": "purple",
-        "tags": ["flower", "deep"],
+        "tags": [
+          "flower",
+          "deep"
+        ],
         "origin": "Named after bellflower (kikyo)"
       },
       "nasukon": {
@@ -1614,11 +3108,27 @@
           "en": "Deep purple like eggplant"
         },
         "hex": "#5A4F74",
-        "rgb": [90, 79, 116],
-        "hsl": [258, 19, 38],
-        "cmyk": [22, 32, 0, 55],
+        "rgb": [
+          90,
+          79,
+          116
+        ],
+        "hsl": [
+          258,
+          19,
+          38
+        ],
+        "cmyk": [
+          22,
+          32,
+          0,
+          55
+        ],
         "category": "purple",
-        "tags": ["vegetable", "dark"],
+        "tags": [
+          "vegetable",
+          "dark"
+        ],
         "origin": "Named after eggplant (nasu) purple"
       },
       "futaai": {
@@ -1632,11 +3142,27 @@
           "en": "Purple from indigo and safflower dyes"
         },
         "hex": "#6D5CAE",
-        "rgb": [109, 92, 174],
-        "hsl": [252, 33, 52],
-        "cmyk": [37, 47, 0, 32],
+        "rgb": [
+          109,
+          92,
+          174
+        ],
+        "hsl": [
+          252,
+          33,
+          52
+        ],
+        "cmyk": [
+          37,
+          47,
+          0,
+          32
+        ],
         "category": "purple",
-        "tags": ["dye", "traditional"],
+        "tags": [
+          "dye",
+          "traditional"
+        ],
         "origin": "Named after two (futa) indigo dyeing technique"
       },
       "hashita": {
@@ -1650,11 +3176,27 @@
           "en": "Pale purple like light wisteria"
         },
         "hex": "#A898C6",
-        "rgb": [168, 152, 198],
-        "hsl": [261, 29, 69],
-        "cmyk": [15, 23, 0, 22],
+        "rgb": [
+          168,
+          152,
+          198
+        ],
+        "hsl": [
+          261,
+          29,
+          69
+        ],
+        "cmyk": [
+          15,
+          23,
+          0,
+          22
+        ],
         "category": "purple",
-        "tags": ["light", "soft"],
+        "tags": [
+          "light",
+          "soft"
+        ],
         "origin": "Half-tone purple color"
       },
       "ebi": {
@@ -1668,11 +3210,27 @@
           "en": "Dark purple like grape"
         },
         "hex": "#6A3E5F",
-        "rgb": [106, 62, 95],
-        "hsl": [315, 26, 33],
-        "cmyk": [0, 42, 10, 58],
+        "rgb": [
+          106,
+          62,
+          95
+        ],
+        "hsl": [
+          315,
+          26,
+          33
+        ],
+        "cmyk": [
+          0,
+          42,
+          10,
+          58
+        ],
         "category": "purple",
-        "tags": ["fruit", "dark"],
+        "tags": [
+          "fruit",
+          "dark"
+        ],
         "origin": "Named after grape (budou/ebi) color"
       },
       "shikon": {
@@ -1686,11 +3244,28 @@
           "en": "Deep purple from gromwell root dye"
         },
         "hex": "#3E2E5E",
-        "rgb": [62, 46, 94],
-        "hsl": [260, 34, 27],
-        "cmyk": [34, 51, 0, 63],
+        "rgb": [
+          62,
+          46,
+          94
+        ],
+        "hsl": [
+          260,
+          34,
+          27
+        ],
+        "cmyk": [
+          34,
+          51,
+          0,
+          63
+        ],
         "category": "purple",
-        "tags": ["dye", "deep", "traditional"],
+        "tags": [
+          "dye",
+          "deep",
+          "traditional"
+        ],
         "origin": "Named after gromwell root (shikon) dye"
       },
       "shironezumi": {
@@ -1704,11 +3279,27 @@
           "en": "Light gray close to white"
         },
         "hex": "#B2B5AA",
-        "rgb": [178, 181, 170],
-        "hsl": [76, 7, 69],
-        "cmyk": [2, 0, 6, 29],
+        "rgb": [
+          178,
+          181,
+          170
+        ],
+        "hsl": [
+          76,
+          7,
+          69
+        ],
+        "cmyk": [
+          2,
+          0,
+          6,
+          29
+        ],
         "category": "gray",
-        "tags": ["light", "neutral"],
+        "tags": [
+          "light",
+          "neutral"
+        ],
         "origin": "White mouse (shironezumi) gray"
       },
       "ginnezumi": {
@@ -1722,11 +3313,28 @@
           "en": "Light gray like silver"
         },
         "hex": "#A8A8A8",
-        "rgb": [168, 168, 168],
-        "hsl": [0, 0, 66],
-        "cmyk": [0, 0, 0, 34],
+        "rgb": [
+          168,
+          168,
+          168
+        ],
+        "hsl": [
+          0,
+          0,
+          66
+        ],
+        "cmyk": [
+          0,
+          0,
+          0,
+          34
+        ],
         "category": "gray",
-        "tags": ["metal", "light", "neutral"],
+        "tags": [
+          "metal",
+          "light",
+          "neutral"
+        ],
         "origin": "Silver (gin) mouse gray"
       },
       "namari": {
@@ -1740,11 +3348,28 @@
           "en": "Dark gray like lead"
         },
         "hex": "#6C6874",
-        "rgb": [108, 104, 116],
-        "hsl": [260, 5, 43],
-        "cmyk": [7, 10, 0, 55],
+        "rgb": [
+          108,
+          104,
+          116
+        ],
+        "hsl": [
+          260,
+          5,
+          43
+        ],
+        "cmyk": [
+          7,
+          10,
+          0,
+          55
+        ],
         "category": "gray",
-        "tags": ["metal", "dark", "cool"],
+        "tags": [
+          "metal",
+          "dark",
+          "cool"
+        ],
         "origin": "Named after lead (namari) metal"
       },
       "rikyunezumi": {
@@ -1758,11 +3383,28 @@
           "en": "Greenish gray favored by Sen no Rikyu"
         },
         "hex": "#8F9F8A",
-        "rgb": [143, 159, 138],
-        "hsl": [106, 10, 58],
-        "cmyk": [10, 0, 13, 38],
+        "rgb": [
+          143,
+          159,
+          138
+        ],
+        "hsl": [
+          106,
+          10,
+          58
+        ],
+        "cmyk": [
+          10,
+          0,
+          13,
+          38
+        ],
         "category": "gray",
-        "tags": ["tea ceremony", "muted", "cool"],
+        "tags": [
+          "tea ceremony",
+          "muted",
+          "cool"
+        ],
         "origin": "Named after tea master Sen no Rikyu"
       },
       "keshizumi": {
@@ -1776,11 +3418,27 @@
           "en": "Dark gray like extinguished charcoal"
         },
         "hex": "#433D3C",
-        "rgb": [67, 61, 60],
-        "hsl": [9, 6, 25],
-        "cmyk": [0, 9, 10, 74],
+        "rgb": [
+          67,
+          61,
+          60
+        ],
+        "hsl": [
+          9,
+          6,
+          25
+        ],
+        "cmyk": [
+          0,
+          9,
+          10,
+          74
+        ],
         "category": "gray",
-        "tags": ["dark", "charcoal"],
+        "tags": [
+          "dark",
+          "charcoal"
+        ],
         "origin": "Named after extinguished charcoal (keshizumi)"
       }
     }
@@ -1788,6 +3446,6 @@
   "metadata": {
     "version": "0.2.0",
     "lastUpdated": "2025-11-17T00:00:00Z",
-    "totalColors": 100
+    "totalColors": 99
   }
 }
